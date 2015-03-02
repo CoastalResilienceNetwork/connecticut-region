@@ -1,11 +1,14 @@
 [{
     "agsSource": {
-        "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
+        "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
         "folderTitle": "Coastal Resilience (CT)",
         "folders": [{
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Connecticut",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Connecticut",
 			"name": "",
             "services": [{
+                "name": "Coastal_Hazards",
+                "type": "dynamic"
+            }, {
                 "name": "Marsh_Protection_Analysis",
                 "type": "dynamic"
             }, {
@@ -70,6 +73,38 @@
                 "type": "dynamic",
                 "visibleLayerIds": [6],
                 "showLayers": []
+            }]
+
+        }]
+
+    }
+
+}, {
+
+    "agsSource": {
+
+        "url": "",
+
+        "folderTitle": "Depth to Groundwater",
+
+        "folders": [{
+
+            "url": "http://54.225.181.217:6080/arcgis/rest/services/LongIsland",
+
+            "name": "",
+
+            "services": [{
+
+                "name": "LIdtw10",
+
+                "displayName": "USGS Depth to groundwater 2010",
+
+                "type": "dynamic",
+
+                "visibleLayerIds": [0,1,2],
+
+                "showLayers": []
+
             }]
 
         }]

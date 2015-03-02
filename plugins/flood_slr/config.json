@@ -1,10 +1,9 @@
 {
     "name": "Flood & Sea Level Rise",
 	"pluginHeight": 450,
-	"ddText": "Choose Data Source",
 	"regions": [
 		{
-			"name": "Coastal Resilience data",
+			"name": "CT CR Data",
 			"extent": {"xmin":-8256101.094402712,"ymin":4958296.747102872,"xmax":-7999073.581303576,"ymax":5079734.017205584,"spatialReference":{"wkid":102100,"latestWkid":3857}},
 			"methods": "methods/SLR.pdf",
 			"variables": [
@@ -12,7 +11,7 @@
 				{"name":"Choose Sea Level Rise", "index":1, "values":[ {"name":"None","value":"None"},{"name":"Low","value":"Low"},{"name":"Medium","value":"Medium"},{"name":"High","value":"High"}]},
 				{"name":"Choose Storm Surge", "index":2, "values":[ {"name":"None","value":"None"},{"name":"Category 2","value":"c2", "default": true},{"name":"Category 3","value":"c3"}]}
 				],
-			"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/Connecticut/CT_Flood_and_SLR/MapServer",
+			"mainURL": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Connecticut/CT_Flood_and_SLR/MapServer",
 			"combos": {
 			
 				"Current|None|None": undefined,
@@ -69,7 +68,7 @@
 			}
 		},
 		{
-			"name": "NOAA SLR Viewer data",
+			"name": "NOAA SLR Data",
 			"extent": {"xmin":-8256101.094402712,"ymin":4958296.747102872,"xmax":-7999073.581303576,"ymax":5079734.017205584,"spatialReference":{"wkid":102100,"latestWkid":3857}},
 			"methods": "http://coast.noaa.gov/digitalcoast/tools/slr",
 			variables: [
