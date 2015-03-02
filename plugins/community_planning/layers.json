@@ -1,0 +1,20 @@
+[
+    {
+        "agsSource": {
+            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
+            "folderTitle": "Connecticut_Community_Planning",
+            "folders": [
+                {
+					"name": "Connecticut",
+					"services": [
+                    { "name": "Western_CT_COG", "type":"dynamic" },
+					{ "name": "Greater_Bridgeport_Regional_Council", "type":"dynamic" },
+					{ "name": "South_Central_Regional_COG", "type":"dynamic" },
+					{ "name": "River_COG", "type":"dynamic" },
+					{ "name": "Southeastern_CT_COG", "type":"dynamic" }
+                    ]
+                }
+            ]
+        }
+    }
+]

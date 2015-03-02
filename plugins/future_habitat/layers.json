@@ -1,0 +1,16 @@
+[
+    {
+        "agsSource": {
+            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
+            "folderTitle": "Coastal_Resilience (CT)",
+            "folders": [
+                {
+                    "name": "Connecticut_Future_Habitat",
+                    "services": [
+                        { "name": "Marsh_Advancement_Zones", "type":"dynamic" }
+                    ]
+                }
+            ]
+        }
+    }
+]
