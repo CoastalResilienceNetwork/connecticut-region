@@ -5,7 +5,7 @@
             "folderTitle": "Coastal_Resilience (CT)",
             "folders": [
                 {
-                    "name": "Connecticut_Future_Habitat",
+                    "name": "Connecticut",
                     "services": [
                         { "name": "Marsh_Advancement_Zones", "type":"dynamic" }
                     ]
