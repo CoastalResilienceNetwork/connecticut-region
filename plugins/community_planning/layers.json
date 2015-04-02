@@ -5,7 +5,7 @@
             "folderTitle": "Connecticut",
             "folders": [
                 {
-					"name": "Connecticut",
+					"name": "",
                     "services": [
 						{ "name": "Connecticut", "type":"dynamic", "displayName":"Western CT COG", "showLayers": [
                                 {"id":49, "parentLayerId":-1 },
@@ -28,7 +28,7 @@
 					]
 				},
 				{
-					"name": "Connecticut",
+					"name": "",
                     "services": [
 						{ "name": "Connecticut", "type":"dynamic", "displayName":"Greater Bridgeport Regional Council", "showLayers": [
                                 {"id":65, "parentLayerId":-1 },
@@ -45,7 +45,7 @@
 					]
 				},
 				{
-					"name": "Connecticut",
+					"name": "",
                     "services": [
 						{ "name": "Connecticut", "type":"dynamic", "displayName":"South Central Regional COG", "showLayers": [
                                 {"id":75, "parentLayerId":-1 },
@@ -89,7 +89,7 @@
 					]
 				},
 				{
-					"name": "Connecticut",
+					"name": "",
                     "services": [
 						{ "name": "Connecticut", "type":"dynamic", "displayName":"River COG", "showLayers": [
                                 {"id":112, "parentLayerId":-1 },
@@ -110,7 +110,7 @@
 					]
 				},
 				{
-					"name": "Connecticut",
+					"name": "",
                     "services": [
 						{ "name": "Connecticut", "type":"dynamic", "displayName":"Southeastern CT COG", "showLayers": [
                                 {"id":126, "parentLayerId":-1 },
