@@ -5,9 +5,14 @@
             "folderTitle": "Coastal_Resilience (CT)",
             "folders": [
                 {
-                    "name": "Connecticut",
+                    "name": "",
                     "services": [
-                        { "name": "Marsh_Advancement_Zones", "type":"dynamic" }
+                        { "name": "Connecticut", "type":"dynamic", "displayName":"Marsh Advancement Zones", "showLayers": [
+                                {"id":49, "parentLayerId":-1 },
+                                {"id":50, "parentLayerId":-1 },
+                                {"id":51, "parentLayerId":-1 }
+                            ]
+                        }   
                     ]
                 }
             ]
