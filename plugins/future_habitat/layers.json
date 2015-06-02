@@ -1,8 +1,8 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
-            "folderTitle": "Coastal_Resilience (CT)",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Connecticut",
+            "folderTitle": "Connecticut",
             "folders": [
                 {
                     "name": "",
