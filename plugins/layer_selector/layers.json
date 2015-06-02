@@ -151,36 +151,4 @@
 
     }
 
-}, {
-
-    "agsSource": {
-
-        "url": "",
-
-        "folderTitle": "Depth to Groundwater",
-
-        "folders": [{
-
-            "url": "http://54.225.181.217:6080/arcgis/rest/services/LongIsland",
-
-            "name": "",
-
-            "services": [{
-
-                "name": "LIdtw10",
-
-                "displayName": "USGS Depth to groundwater 2010",
-
-                "type": "dynamic",
-
-                "visibleLayerIds": [0,1,2],
-
-                "showLayers": []
-
-            }]
-
-        }]
-
-    }
-
 }]
