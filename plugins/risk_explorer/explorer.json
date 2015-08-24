@@ -59,9 +59,9 @@
                     "index": 0
                 }
             ],
-            "ancillaryUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Connecticut/CT_Risk_Explorer_Show_Me_Layers/MapServer",
+            "ancillaryUrl": "http://services.coastalresilience.org/arcgis/rest/services/Connecticut/CT_Risk_Explorer_Show_Me_Layers/MapServer",
             "name": "Connecticut",
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"methods": "methods/CT_Risk_Explorer_Methods.pdf",
 			"workspaceId": "postgis",
 			"geometryType": "point",
