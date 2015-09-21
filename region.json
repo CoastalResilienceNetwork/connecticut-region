@@ -67,7 +67,7 @@
                 "id": "southern-ct-regional-resilience-framework",
                 "display": "Southern CT Regional Resilience Framework",
                 "details": "",
-                "shape":  [[-73.34626788279701, 41.10895643602904], [-73.34626788279701, 41.36412334999365], [-72.5399705150999, 41.36412334999365], [-72.5399705150999, 41.10895643602904], [-73.34626788279701, 41.10895643602904]],
+                "shape":  [[-73.02070885048612, 41.21486273491111], [-73.02070885048612, 41.27064204130947], [-72.8651865329061, 41.27064204130947], [-72.8651865329061, 41.21486273491111], [-73.02070885048612, 41.21486273491111]],
                 "availablePlugins": ["community_planning","layer_selector", "flood_slr","future_habitat","habitat_explorer","risk_explorer"],
                 "outlineColor": "#000",
                 "noFill": true
