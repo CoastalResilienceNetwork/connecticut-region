@@ -61,13 +61,16 @@
         "color": "#00C5CD",
         "opacity": 0.2,
         "clickToFocus": true,
-        "hideByDefault": false,
+        "hideByDefault": true,
         "areas": [
             {
-                "id": "Southern CT Regional Resilience Framework",
+                "id": "southern-ct-regional-resilience-framework",
                 "display": "Southern CT Regional Resilience Framework",
                 "details": "",
-                "shape":  [[-73.34626788279701, 41.10895643602904], [-73.34626788279701, 41.36412334999365], [-72.5399705150999, 41.36412334999365], [-72.5399705150999, 41.10895643602904], [-73.34626788279701, 41.10895643602904]]
+                "shape":  [[-73.34626788279701, 41.10895643602904], [-73.34626788279701, 41.36412334999365], [-72.5399705150999, 41.36412334999365], [-72.5399705150999, 41.10895643602904], [-73.34626788279701, 41.10895643602904]],
+                "availablePlugins": ["community_planning","layer_selector", "flood_slr","future_habitat","habitat_explorer","risk_explorer"],
+                "outlineColor": "#000",
+                "noFill": true
             }
         ]
     },
