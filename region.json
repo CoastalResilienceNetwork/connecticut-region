@@ -150,6 +150,7 @@
               {
                 "name": "One-Click Maps <br> South Eastern CT",
                 "description": "Custom maps for economic, social, and ecosystem adaptation action",
+                "hideByDefault": true,
                 "issues": [
                     {
                       "name": "Cat-3 1938 Hurricane",
@@ -212,6 +213,7 @@
               {
                 "name": "One-Click Maps <br> South Western CT",
                 "description": "Custom maps for adaptation, conservation, and hazard mitigation",
+                "hideByDefault": true,
                 "issues": [
                     {
                       "name": "Cat-3 1938 Hurricane",
