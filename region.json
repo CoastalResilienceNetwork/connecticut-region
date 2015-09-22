@@ -64,8 +64,26 @@
         "hideByDefault": true,
         "areas": [
             {
-                "id": "southern-ct-regional-resilience-framework",
-                "display": "Southern CT Regional Resilience Framework",
+                "id": "South Central CT",
+                "display": "South Central CT",
+                "details": "",
+                "shape":  [[-73.14015753916809, 41.14816112480085], [-73.14015753916809, 41.31663568834066], [-72.7175688499388, 41.31663568834066], [-72.7175688499388, 41.14816112480085], [-73.14015753916809, 41.14816112480085]],
+                "availablePlugins": ["community_planning","layer_selector", "flood_slr","future_habitat","habitat_explorer","risk_explorer"],
+                "outlineColor": "#000",
+                "noFill": true
+            },
+            {
+                "id": "South Eastern CT",
+                "display": "South Eastern CT",
+                "details": "",
+                "shape":  [[-73.14015753916809, 41.14816112480085], [-73.14015753916809, 41.31663568834066], [-72.7175688499388, 41.31663568834066], [-72.7175688499388, 41.14816112480085], [-73.14015753916809, 41.14816112480085]],
+                "availablePlugins": ["community_planning","layer_selector", "flood_slr","future_habitat","habitat_explorer","risk_explorer"],
+                "outlineColor": "#000",
+                "noFill": true
+            },
+            {
+                "id": "South Western CT",
+                "display": "South Western CT",
                 "details": "",
                 "shape":  [[-73.14015753916809, 41.14816112480085], [-73.14015753916809, 41.31663568834066], [-72.7175688499388, 41.31663568834066], [-72.7175688499388, 41.14816112480085], [-73.14015753916809, 41.14816112480085]],
                 "availablePlugins": ["community_planning","layer_selector", "flood_slr","future_habitat","habitat_explorer","risk_explorer"],
@@ -78,29 +96,137 @@
         {
         "id": "get-started",
             "title": "Getting Started",
-            "description": "The Adaptation Toolkit is a decision support tool that provides natural resource managers and municipal staff easy access to data on the current condition of, future threats to, and climate change exposure and sensitivity of natural resources across NY and its watersheds. It also provides a structured process for managers to use these data to select the most appropriate climate adaptation options for their particular area or interest. <br><br>Pick a geography to start exploring the data OR a use mode to get help deciding what your best adaptation options are, based on your focus. If you need help figuring out how to start, click on the Tour tab near the top right of the screen, or visit our <a href='http://coastalresilience.org/training' target='_blank'>Training</a> page.",
+            "description": "Coastal Resilience is a decision support tool that provides local, regional, state and national stakeholders a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal and inland hazards.  If you need help figuring out how to start, click on the Tour tab near the top right of the screen, or visit our <a href='http://coastalresilience.org/training' target='_blank'>Training</a> page.",
             "showSubRegions": true,
-            "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map.",
+            "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map for Connecticut.",
             "showByDefault": true,
             "categories": [
               {
-                "name": "Southern CT Regional Resilience Framework <br> One-Click Maps",
-                "description": "Custom maps for adaptation, conservation and restoration planning",
+                "name": "One-Click Maps <br> South Central CT <br> Regional Framework for Resilience",
+                "description": "Custom maps for economic, social, and ecosystem adaptation action",
                 "issues": [
                     {
                       "name": "Cat-3 1938 Hurricane",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTUxMjQzLjg5Nzk4ODcxNMSaecWBxJM1MDMxODPFizE2MDAyNzQwxYbEv8SpeMSIxYQwxYUxxYguOcWJNTPFkzU5NcWWxavEiMWaNsaAxbLFozfFjcWTxbHEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMcWkxpwwxJpsxoplc3RXxpjGmjozODU3xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a6xarFgsWtxYXFh8WJxYvGhcWQxZLFlMW8x4I6xZrFnMWexaDFosWkxabFqMW7IsWAYcWsOsWuxbDFssW0NMW2xbjFusW8x5rFvjDGgDbGgjDGhMWOxbExxojGscaLxo3Gj8aRxIZjxpTEgMaXxpnGm8adxaPGoMaixqTGpse8xqnGq8atxq5mcmFtZUlkxrVbMF19yJPGiGVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGrsaxbmXEq8aVyKllTnVtYsaRyKbGiHTGok9mUGx1Z8WCxrXEisiXyJnIm8i7yL3HjSLEjMmGbnMvxqF5xpFfxJjImMiab3IixJrJici+yYvEs8mZyL/JjWHJj3LJkcmCyZTJlsaVcm9vdC9Db8ieyLdsIMaOc2nEjce3ZSAoQ1QpyaxvbsiqyJppY3V0xYgzx6E2x63Es2/GsWPEjnnIpi43xJpjaMiZa2XGqMSkxJjGrnbGkcm0yb/EuTEuMcmXIsmoyarJvsmvxJbJssajybVpybfJucm7yb3JrcqAyYPKg8qFx68yMcWcNMWGxaHKjMqOypDKksqUIsqWypjKmsSjxJbKncSayqnJq8mtyqzJscmzyrDKssm6ybzJvsq3yoLKhMqGxYXFtMadMjLLgmHKj8S1y4XKlcqXY8qZypvLjMSmy47JqcuQya7GpMqty5TJtsaTyrPLmMq2yoHGi8ucxYkyNTI2xaUyODI5M8WbyqbGlcqNy6TLhDowypPLqMuJy6zEpcauy4/Kq8uzy5PKr8u2x7jLuMq1yb/Lu8q5dMWfyogzxbY2xbfGqjM5xafLo8ulypHMj8yRy4fLqcury4vMlcuvyqrLkcyZyq7JtMycybjLl8yfy5rLvMqFNMeGzK7MjsyQy4bLiMuqy4rElMutzJbLsMyYybDMvMuVy7fNgMuZzKHLnMehNDY0N82Hy6bMsc2KzLTNjcqcy67KqM2RSHVycsqDYciqIFPNr2R5L1PNq2dlQm91yKPGssqxcyBGxYLKrcadNM2gzLDNicySzYzMlMuNzajKqs2qzazNrs2wzbLIo821MsWoMs2xzbPMsMSAzIzMr8unzLPMk8y2yp3IqMi8yZrJjGZsyalkyZFsyabEgM25b8SzbsiLxpQizLrNk8u1yrHLt2TGimHKp8a/xL3Es8WAx43FhMWlxbrMgMqTN8WfxaU1NseXxZfHjTTFusyBNTXKpcWRxbfNncqIxarHpsecxY/Fnseqz5jPosWQx6zPjMelx5vFmsWRxoDMkMarx6HFm8WvOMexxorGjGzGjsaQxpLHuMSzx7vGqMacyrzHvyLGocSwyILGp8SIxqrGrH3GrsiMdGhvyI/Es82rbMS50IzQjsiPzbZMUi5wZGbKp8aLdMiYxLlWyrF3zoJ1bMyacMmVxLLGrmPJv3TJqMSXxIjGtyLOtciMxLlD0I5vxJggWWXGssqnxYLIpMebxp/EtMS2zrdzxI3IpMmWxJp2xJZ1xqPQtMmByZPIm8SI0LHRkcSa0LfOt0PNq8aSxL4i0Y/IvNGc0Z7HgCLKl2xwxLnQv8ayIM6YxpwixKfEgNGbxLnOmM6YyqfRotGR0bXFpMSryJbRlc2lzY8s0bPOttG7xZrRuNGQzrfOmNKG0b7Jg9KAzLfSg9C4OiLOmDjRvdGh0ojRu9KVyqfJktKNzo3EpsiV0pDRnNC70L1T0YAgTGXKn8uTacSY0J/RiMS50YrGmci0xJrIpMS3yKPGutKS0bYwfNKK0rvSlNKW0YPIpTrHsNKX0aPIkNKhxLlMb3fSh9Gj04nTi9KbyaTRljrRmMuu04jSkk3KmmnIsdON0brTmNOa05zSjMia0o7LjdOXIkhpZ2jTnc6306jTqtOR0b/SnsiU0bLQttKE0pLQusmp0qR0yZVtzbHNuMS4xJrGvM63yIpkac6zxJrTgcebMtGO0ojTh9O10pEiTsm/1IDThdOe1JHUk8qn0rXEhsikz4PSudG80rwwxZrUoNKa06LTk82m07TRtNO3xqJnyZV50a7TrMS5Y8ui1KXTpNOW1I/RnNSr1K0gM9Sw0pJj1LzUtMao05XTs13EqGHFglVSTMS5aHR0cDovL8SYcnbKg8ajLtCvy5LEhMy9zrzHuC7JlWcvxrJjyL7JjNWcyavVlNWWx7jJjMu6yrjLnMmsVF9GzqvQj1/Ns19T0JkvxJ9w0qXVldKzy4dvyLLQvMSz0rp804p3fNSSyKrRk9GHxr3Sks200LfKg9Kb0I7TjMa2zIHIk9WF0pPUodK71onWi9SYxrbEgNSCxLnWksiL1pTGiNaW0LQyM9aaxJrSv9aI04vWoNaN1qLWj8631qbFgWPWldOQ1pjIksiU1q/Un9OZ1IXIsdazxpTQtdak1pHEnNan1rrWqda8W8u/1q7WnNSi14LTm23XhdaO14gi1rjWqMSB1qrWmDLXkdaw15TXhNaM14bWo9Kv14nWk9eM153XjjE516HUn9OuaNeX1rXXmdeb16tz157XjzTXsNSi17LXtNeH16jXmteK1rnWu9aX148x17DSlXzXv9el15jYgte32IbQtMWd15HRnc2sxLF81LLYj9aQ2IPXqtiS1pg41pvQktWM1Y7VkNWS1arVl3PVmcuyybDVnM2V1Z/VodWjctWl0qwv1ajVk8aR1avGo82Y1a/KhdWx1bPVtc6t1bjVulLVvMSg1b/Kn8mW1r/WnM6Y1rHWitia17XYkNiE15zXudeO2KHZi9K92Y7Ymcui2ZHYnNiR143YhzXYitae1rLZkNiB2Z7Zk9e417rXoNmY14HToNeW2abXp9mo2J7ZoNC0N9e90rvXo9mw2ZzZp9a32anYn1vXvNmt2IvZutmb2JvZvtm016zYh9iJ2a3Zjde/2bHWttal2b/Ztca2Ntm42IzTqdez2pDXttqT2orQtNat2oPSu9qP2bzZstqI14vagNa+1pvYltGf2JnUvNmd2qbYhdqU14/Zt8Sa2KPSktWN1Y/Vkdi41ZXYqdir1ZvMm9WeZdWgctWi1aTVpti2xqPVqdi52KnYvMub2L7Ju9mAzqzVt8ij1bnVu9W92YjItNqN2aTZj9qu2b3aktqJ2ZXai9m32a3Uotaf1L/ah9uf2qfassWU2aPZmtun2q/bqdqx2p7GtsWx17DZjdqF26/bntep26rbs1vFodqX27jbndql27HZlNe6yr3brdyB26jbu9uy26HYk9qp14DajtqZ2q3citid27zcjdu02aLbpNqi3JLbudyD3Ivchdet2azWm9aw2o/cgtqR3J/ZqteO16/Ts9SBYWLUjtCvxL3QstSO1KnOuNKjybjRrNGNItSJyLXcp8SB0YvWgdG50ZLWtdKc06PVgnLRmdS30LnRpc+D1IzTjtO33YzRoNGo0arSkty50a7FqMSr1KjTttmM0pbdgtG70bfVgc6k1LbctdK91L3XktKW3YXUptKB06bSv92m3a3doc2OzJXSoN2K07fct82x0qbSqNKqybLSrNSU15nSsdGM1Jll0rbUnMSy1J7ZjdmZ3a/cu9K3x5vThN2C3LTdm9aJ3abekd2w1YPSgt20Itm63abemd2w1Kfelty117Ldpt6g3pzNj92z3LXTuNC8ybhT07ty073Nt9uE3b3YgtSE1IbRgt6LxIjUi9SV3YPQtdy12I7djtSW3rzXmt6C1JvSuN2c1KDUot6J3anUtd2a1JBD1Lly1K7Us9641LHfkN+I07Lent2b34zEsNSs347Uu92m26felN2I0p/Zi9Cv1oTJgN+E1p/Yjtuw3KjagNaZ3JrZmt+o27rcldyM2avaoNyjxa/bm9iA3J7fsdyg2IfOmNu22bnZr9+43L7Zn9u915DfrdqF36/fueCgg9yX14/coteA2oTgoIDgoIjgoILaneCgi9eu377amNOq4KCB2pzboNmr2oLftde+3JLgoJHgoJrcltmr2ozftdiL2I3Wod+w4KCK3IbZl9qq3ZHaht+p37rcqd+82KHatXLQk9q32KXautio1azavsyZ2K7MvtuD24XYs9uH2LfgoLzYu9Wu247LkNWy1bTbktmD25bZh9i525nftdmN26bapOCgkuCgm9mW2pfgoZbclOCgq9eO3JngoKbft9qb2ZLgoZnfvOCgltu44KGX4KCi37LXjtuj4KCe37/Xg9m74KGd4KCT17rgoJ3goI7goa/XleCgsOCgquChs9et4KCW2qPgobLgoaXQtNqW363gob7goLHgoZ7Yh9+04KG24KCX2prgoangoaTgoKPXjtyPzrjgoK/cneChmOCijt+82rQi2rbRp+Cgutin24vgoL3VmuCgv9uAybfgoYLYsti01afbidq72LrVrcyg2L3goYvbkdW24KGP2YXbl+ChktmK4KGU4KGi3Kbgoarfu9iT4KGt14Dbpdml4KK34KKN4KGr2ovgobXWnNiL26bgor/Zs+CildiT4KCl3JDgobfXhOCik+CiuOCgs9iT4KKC4KGufNyJ4KKF4KG72ovgoojgo4Tgo43ZsOCjh9qw4KK527TgopDWh9yl4KG/4KOJ3Jjal+CjpOCjl+CigNu04KCN4KOb4KKK3JPgo6rgo6Zb3KvIlSLEqdWI1YrYpNq54KKc2rzgop7YrMSW4KGA24HgoqPbhti14KGG4KKd4KGI4KKr4KGK2L/goY3goq/blNmE2YbVvuCis9Gx4KO10LHNr8a1zJDFmsWlM8uhxafFisW4xqvQiuCkoQ==",
-                      "faIcon": "fa fa-leaf",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTUyNzM4LjLFh8WJMjA2NMSaecWBxJM1MDMyOTI2LjHFkjQ3OTXFhsS/xKl4xIjFhDA5NDgzN8WMxZk4xZExMsWUxajEiMWYNjE3NDIuxZw0McW/OTg3xJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDEwMsadMMSabMaLZXN0V8aZxps6xYo1N8SnIl9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGu8WnxYLFqsWFxY7FisWMx4bFkMWSxbjHgzrFmMWaxZzFnsWgNMWixaTFpiLFgGHFqTrFq8Wtxa/FscWQxYrFtcW3IsWVx5rFusW1xb7GgMaCxoTFm8aHxonGssaMxo7GkMaSxIZjxpXEgMaYxprGnMaexqDGosakxqbGqMe7xqs4xq19xq9mcmFtZUlkxrZbMF19yJPGiWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGr8aybmXEq8aWyKllTnVtYsaSyKbGiXTGpE9mUGx1Z8WCxrbEisiXyJnIm8i7yL3HjSLEjMmGbnMvxqN5xpJfxJjImMiab3IixJrJici+yYvEs8mZyL/JjWHJj3LJkcmCyZTJlsaWcm9vdC9Db8ieyLdsIMaPc2nEjce2ZSAoQ1QpyaxvbsiqyJppY3V0xbYzNDU2Nzg5xLNvxrJjxI55yKYuxogiY2jImWtlxqrEpMSYxq92xpLJtMm/xLkxxZ/JlyLJqMmqyb7Jr8SWybLGpcm1acm3ybnJu8m9ya3KgMmDyoPKhTHKvcafM8aExYbFoMqPypHKk8qVypfKmcqbyp3Eo8SWyqDEmsqryavJrcquybHJs8qyyrTJusm8yb7KucqCyoTKhsWFxZzHvTIyy4RhypLEtcuHxJrLiWPKnMqey43EpsuPyanLkcmuxqbKr8uVybbGlMq1y5nKuMqBxozLnTLFv8WHNsWIMjjFmzPFmTHLpMumypQ6MMqWy6nKmsury4vElMuuxq/LkMqty7TLlMqxy7fHt8u5yrfJv8u8yrt0M8ykNDM1MzbFsMWKM8WtyKzEgMqQy6XLhsyNzI/KmMyRy6zLjMSlzJbLscyYybDKsMm0zJzJuMuYzJ/Lm8u9yoXFv8ymzIrMs8yOy4jMt8yTyp/Lr8qqzLzLksyZzL/Llsu4zYPLmsyhy53KiTTFkjfNisunzLTNjcuKy63MusuwyqxIdXJyyoNhyKogU82vZHkvU82rZ2VCb3XIo8azyrNzIEbFgsqvx700zaHMjM2MzJDNpcy5y47Nks2pzavNrWPNr8m4zbLIo821xZDFts2xzbPMjMywy4XNos6KzLbOjMyUzLrIqMi8yZrJjGZsyalkyZFsyabEgM25b8SzbsiLxpUizZTMvsu2yrPLuGTGi2HKqceAxL3Es8WAx43FhMWIxaTFh8qWxYnFmjfKijXHjMSTNMWkxZ01NcWfOMefxZLKiMWnx6fHnMWjxa/FvM+Xz6HGhjA3xYnFuM+exZjPmTY2zI7IhcqJxZkwz5nHsMaLxo1sxo/GkcaTx7fEs8e6xqrGncafMMahIsajxLDIgcapxIjGrMauxq/IjHRob8iPxLPNq2zEudCN0I/Ij822TFIucGRmyqnGjHTImMS5Vsqzd86CdWzMmnDJlcSyxq9jyb90yajEl8SIxrgizrXIjMS5Q9CPb8SYIFllxrPKqcWCyKTHm9CDxr3Ot3PEjcikyZbEmnbElnXGpdC1yYHJk8ibxIjQstGRxJrQuM63Q86Rx4Ei0Y/IvNGc0Z7Pg8SayppscMS50YDGsyDOmcSrxKfEgNGbxLnFkMWQyqnRodGR0bPGnsSryJbRlc2PzJUs0bHOttG5xZjRttGQzrfFkNKE0bzJg9G+zafSgdC5OiLFkMW00oXRotG50pPSisia0ozKoMiV0o7RnNC80L5T0YEgTGXKosuUacSY0KDEttGJ0YvItMSayKTEt8ijxrvSkNG0MHzSiNK20pLRuyLRhMilOjHRjtKGyJDSncS5TG930pTRuNKQ04bTiNKY0ZY60ZjLr9OE0pBNyp1pyLHTic6305Vk05dtyqnJktKLzabLjtOTIkhpZ2jTmcS506bTqNOfyaTTj82QyJTRsNC30oLSkNC7yanSoHTJlW3Nsc24xLjEmtGIxLnIitOczrPEmtK9x5vHpNG30ZLGt9OkTsm/07/RoNKGxLnUjsiqyqnSsMSGyKTPg9K00brStzDFmNSd0pfEgdOv0prTktO00o/OuMakZ8mVedGt06rSkGPLo9OO1KTTs9Gy07bUqdSrIDPUrsqY1LrUssaq05HTsl3EqGHFglVSTMS5aHR0cDovL8SYcnbKg8alLtCwy5PEhM2AzrzHty7JlWcvxrNjyL7JjNWZyavVkdWTx7fJjMu7yrrLncmsVF9GzqvQkF/Ns19T0JovxJ9w0qHVktKuyphvyLLQvcSz0rV804x81JTGldC21IHSkM200LjKg9Of0I/TiMa3xZ3Ik9WC0pHUntK21obWiNGTxLTSq8S51o3Ii9aPxonWkdC1MjPWlcSa0rrWhdOH1ofUj9ac1osi1qDFgWPWkNOH1qXIksiU1qnUnNOb053WrdSV1IzWnca+1ozEnNah1rTWo9a21pM11qjWl9Sf1rzIsda+1onEgNaw1rLWosSB1qTWkzLXi9aq145t15DWr9ae14PWjteG15bXiFsxOdea1JzTrGjXnteA15PXhNaz1rXWklvLv9ep1J/Xq9et1orXoNax17DXlXPXl9e0MdepxbR817jWm9eu17vXlNej17/XpTE414vRnc2sxLF81LDXn9eC17zXotey1qXYj8Sa0JPVidWL1Y3Vj9Wn1ZRz1ZbLs8mw1ZnNl9Wc1Z7VoHLVotKoL9Wl1ZDGktWoxqXNmtWsyoXVrtWw1bLOrdW11bdS1bnEoNW8yqLJlta51pfFkNard9iUy6PYiNiX2IrYmsa32I/ZhtK42YnZi9iWzrfZj9eH17PXitmTz7PWmdas2JXZjdmY173Yi9iA15nZndmI15zZltmi1p/ZpNmQWzfXttK22arZode62Y7Zrtma0LU02IPZs9OW14/ZtdeS2InZuNek17PYgtmo0rbXuNqA14HZo9iZ2bnGtzbZstiF06fXrNqK16/ajdqE0LXWp9md2ITaidmM2bbajNeF2a/WuNaW2JHGk3TYlNS62azXodqh2o7XtNmx2J1y0JTSkNWK1YzVjtiz1ZLYpNim1ZjMm9WbZdWdctWf1aHVo9ixxqXVpti02KTYt8uc2LnJu9i7zqzVtMij1bbVuNW62YPItNqH2ZVj2qnan9mt2pfYjNqF2bHZndSf1obbmNmX25varNqYxrfGhNm825fbmdqB2bfbnNiAyr3Xqdmp2b7Xnduj2qrYmNum253QtcWg2pHZtNus2ovbpdex2q0x2prWlteb27TaqNuk2qvcgtun16bao9a62Yjaidu/2pbbuduw2ZzchtaY2pLTqNyJ27fZmdyNxbbbqtyS3IrbuNyM27rGt9eo07LUgGFi04PVv8S90LPcrdS1zrjSn8m40avRjdK80rLRhtSA17vRisaa1b7Uityt06DSmdS/ctGZ1KbRo9iS0aXUkdKV07bRpMS+ItGn0anSkNy20a0wxp0i1LTTtdmH0rvUitG50bXUvs6N1KXcstK41LvdpN2gzqTTo92H0pbdnNSS1JvUod2C07DMldKc3arTtty0zbHSotKk0qbJstKo1JDWsNy90YzUlmXSsdSZxLLUm9mI2ZTSutGD3LnGnNOB0aLcsd2a04zUu96R3afVgNKA3bQi15zUu96Z3afTsd6W3LLXq9S73qDenN2y3ZnUp9O30L3OldO6ctO8zbfbgN2917vUg2nUhdy40YXEiNSJ04LWnNyy1pvejdOKIt671rHegtSY0rPdm9Sd1J/eid6j0o3el0PUt3LUrNSx3YvevdiV34jdqdyy34vEsNSq343UudS726PelN2FxKbXi9Cw1oHJgN+E1prWrtyd2oPcpte02pDboNmf2YrYh9ua3IvXvtmm3IXWutiE36XWv9+w3KTfstelxZDbstm905zXj9+v263aoNyl2abcl9a6143ciOCggtyA37HZpd+82afcmNiE2argoIvclOCghdiN3KjcmNyR2pPXueCgg9yB37vXs9e136zcmtes4KCU2oLbr9+82obgoJHaiOCgm+Cgpduu3JXYjdmS2qTdjtmr37ncnt+pzITWltie2rPYoNq22KPVqdq6zJnYqc2B2r/bgdiu24PYsuCgvti21avbisuR1a/VsduO2L7bktmC2LTbleCgmd+t4KC04KCd4KCN2a/goLHgoIjgoZfaleCgpuCgr9mb26rbotqe4KGZ37rgoI7goKDfvnzZtOChpeCgjOChp9mv25/cmOCgieCggNu14KGt4KCV4KCf2brbquChrNyj4KC227DgoaraneChvN+o2IDfq+ChsuCgq9yb4KGf4KCu4KCW17PftNaX2pzgoJvgoojgoITgobjGt9yPzrjgoLPbtuCgteCigt+82q8i4KC63ZDgoLzYotuH4KC/1ZfgoYHavMm34KGE2K3Yr9Wk24Xat9i11arMoNi44KGN243Vs+ChkdmA25PgoZTZheChltur4KKB4KCn257akdui3JPgoaDgoorbu9m72pvgoZ7go4DgoongopLXpuCgqdyQ37/WveCil+ChpuChvdiN4KKE4KGd4KGr3Ijgo4/goa7go5HaheCijNyH4KG03Jzgopjgorzbu+CilNaE3KLfp+CjoNuo4KCH14zgoobalOCjh+CikeChqNu74KCQ37Xgo6rgo57go5DgopnXs+CgmNCM1YRu1YbViOCgu9q14KKg2rjgoqLYp8SW4KGC2r3goqfbgtiw4KGI4KKh4KGK4KKv4KGM2LrgoY/gorPbkNi/2YHVu+Cit92YyJXEtMiKyZvMtDQwzKY3xYY4zZ45xa3MqMqKyIfgpKc=",
+                      "faIcon": "fa fa-anchor",
+                      "faSize": 32
+                    },
+                    {
+                      "name": "FEMA - Sandy Flooding",
+                      "description": "",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTU1MjU2Ljg0MTk3MzbFisSaecWBxJM1MDMyNsWRLjnFnTMzODU0NsS/xKl4xIjFhDDFkDPFhy43OTMwNDc3MTLFlcWpxIjFmTYxNDkwxbEyNzAwMjAxOMSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxxojGoTDEmmzGj2VzdFfGncafOsWjNTfEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xr7FqMWCxavFhcWHxYnFi8WNxY/FkcWTxacixZbHhjrFmcWbxaHFn8Whxq/FpsWoYcWqOsWsxa7FsMWyxbTFtsW4xbrHkcW8x5Qwxb/GgcaDN8aFxofGicaLxo3GtcaQxpLGlMaWxIZjxpnEgMacxp7GoMaixofGpcanxqnGq8e/xq7FpMaxxrJmcmFtZUlkxrlbMF19yJbGjWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGssa1bmXEq8aayKxlTnVtYsaWyKnGjXTGp09mUGx1Z8WCxrnEisiayJzInsi+yYDHkyLEjMmJbnMvxqZ5xpZfxJjIm8idb3IixJrJjMmByY7Es8mcyYLJkGHJknLJlMmFyZfJmcaacm9vdC9Db8ihyLpsIMaTc2nEjce6ZSAoQ1Qpya9vbsityJ1pY3V0xbkzNMWKNzg5xLNvxrVjxI55yKnFscSaY2jInGtlxq3EpMSYxrJ2xpbJt8qCxLkxLjHJmiLJq8mtyoHJssSWybXGqMm4acm6ybzJvsqAybDKg8mGyobKiDHKvzIxM8aAxYYxNsqRypPKlcqXN8qZyptjyp3Kn8SWyqHEmsqtya7JsMqwybTJtsq0yrbJvcm/yoHKu8qFyofKicWFOcaJy4EyMsuIYcqUxLXLi8uNypzKnsSjy5LEpsuUyazLlsmxxqnKscuaybnGmMq3y57KusqExpDLojI0xYnFnMaFMjgyxbPFmsqqxprKksury4o6x67Lr8uPy7HElMuzxrLLlcqvy7nLmcqzy7zHu8u+yrnKgsyByr10xaLKi8WvxZIzxZE4Mzk0yK/EgMyQy6zKlsyTypgiyprLsMuRxKXMmsu2zJzJs8qyybfMoMm7y53Mo8ugzILKiMyFNDPLqsy1y67MucuOy5DLssy9y7XKrsuXzJ3Ngsuby73NhsufzKXLosqMxabFts2OzJLMlM2RzLvNlMuTyqzMv0h1cnLKhmHIrSBTzbJkeS9Tza5nZUJvdcimxrbKtXMgRsWCyrHGojTNpMutzLfLjM2nzJbGrXRydcSZInZpybdiyJtMyaPGlsiRyJPGpDEsMsiYzavKrs2tza/Nsc2zzbXIps24x7IyzbTNtsy2zLPLic6MzabMus6QzanEpn3OvM68",
+                      "faIcon": "fa fa-umbrella",
+                      "faSize": 32
+                    },
+                    {
+                      "name": "Sea Level Rise",
+                      "description": "",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTYyNTIyLjE5MjPFiTU1M8SaecWBxJM1MDMyODQ5LjcyNzQ1McWPxL/EqXjEiMWEMTA0xYcxxYw0MzQyNjYwOcWVxanEiMWZNsWGxbcuNDg3MTE0NzAyxJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiMWtMsWtMMSabMaOZXN0V8acxp46Mzg1N8SnIl9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGvsWoxYLFq8WFxYfFicWLxY3Fj8WRxZPFu8eGOsWZxZvFncWfxaHFo8WlxacixYBhxao6xazFrsWwxbLFtMW2xbjFuiLFlsedxb0wxb/FtzbGgsaExobGiMaKxozGtcaPxpHGk8aVxIZjxpjEgMabxp3Gn8aKxqLGpMamxqjGqsiAxq3Gr8axxrJmcmFtZUlkxrlbMF19yJfGjGVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGssa1bmXEq8aZyK1lTnVtYsaVyKrGjHTGpk9mUGx1Z8WCxrnEisibyJ3In8i/yYHHkSLEjMmKbnMvZmxvb2Rfc2xyIsSayY3JgsmPxLPJncmDyZHJk8mVyZfJmcSzZ2VvxLNuyI/GmCJDb8iiyLtsIMaSc2nEjce7ZSBkxo5hyZvEusa9xL3Es8WAx5HFhMWiOcWSxYs3NzPFmzc1NjXHkMSTxZ7FicqTNcWMODgzNzbFszTFqMeqx583Ocqdxb/Kmsqoyqcwyo3FlMeoxbzHkjDKnMW3MC7Gr8WkxZrKszjHtcaOxpBsxpLGlMaWx7zEs8e/xqzGoMiDIsalxLDIhsarxIjGrsawfcayyJB0aMmVyYQidXJsxLnLlMuWyJMvU0xSLnBkZsqBxo90yJzEuVZpZXcgRnVsybXGknBvxrcixrJjb8S9cm/El8SIxrsiya3IkMS5Q8uWb8SYIFllxrbKgcWCyKjHnsajxLTEtsmvyZjGnci4xJp2xJZ1xqfMg8mFyJzInmXGrMSkxJjEmsyGya9Dy5rGlsS+IsydyYDMq8ytx4QiaMibcMS5zI7GtiAyMMWty7ssxIDMqsS5zL7MvsqBzLHMn82FxorEq8iazKPIn8SjxJbEmMSnzYPJrs2LxZnNiMyeya/Mvs2YzY7Jh8ylzZHEpc2UzIXNljoizL44zY3MsM2azYvNqcqBxJjNj82gOnRyzJ/ImM2jzYTNpsyJyZTMjFPMjyBMZXbIm8m2acSYy6nMl8S5zJnIqMmaxJrIqMS3yKfGvs2mzYYwfM2czpXNqM2qzJLIqToxzJzNmsiUzZXMh82mTG93zZnMssS5zqXOp82ezKTMps2SxKbNgs2kzqMiTcylaci1zqjNis2mzrZkzrhtza/Jhs6uzaHNk86yzbkiSGlnaM66ya/Pic+Lz4HNscaszbTNtsiZzqLMq8yKzb10y7ltIFPLmsmpzojHgc2myI7OvsmrxJrOm8eexovNq8yyzqHOs8mvTsu+xLjOn86pzabPsciuyoHOj8SGyKjKhM6TzYzOljDFmdCAza7Orc2QzbPNtc6xz5fMiMamZ8u5ecy9z43EuWMyz5HNn86vzaLPhs2lybDQjNCOIDPQkc2mY9Cf0IXNssynxKbIl13EqGHFglVSTMS5aHR0cDovL8SYcnZpx7xzLsu9ybPElsSEybjJusaXLsu5Zy/GtmPJgsmQ0YJ00LfGldC60LwvybFuyK7IntC7ddGPQ1RfRsmkyZZhyKdfy6JSL8SfcM2+0LnMmyLLvci2zIvEs86UfM6rfM+3xpjMhMeAya9kxJzIj9C7za/Lls6nxrrFttCpy5nLm9Cw0LLQtNC20LjRksan0L7Jssao0YHGp8m5y6/RhdGH0Yly0YvOhi/RjtGQ0LnQu8an0ZTLvtGXxo9j0ZrRlNGd0Z/JlNGh0aPRpdGnxKDRqs6DyZrImMSazpfRs86m0bXPssyhzJbPoyLRu8yG0b7GjNKAzIPFj9KEy5rLnM2m0LHQs9C10p3SjNC90L/SkMmZ0pLRhMe80YZy0YjRitGM0pvGp9GP0ovSn8mQ0ZXSo9GZ0ZvSqNGgX9GiyZbSrdGo0rDIuNKzzafKs86V0bTRttK60bnEudK+0b1j0b/OptODyJbEmtOG0ofTitKK0ZHTntKO0YDTkdGD0pTTlNKW05jSmtKc053Rk9OgyYfTotKn0Z7TpdOn0aTLo9Ku0anRkdOs0oTRss69zr/SuM+4xrrEgNO0zabTtsWB07jTgdO60oI104XShtOI0ojTi9SO0o3Tj8m00YLSk8m705XTl9KY05nUjdSC1I/SotSR0qXTo9SU0qrTptKs1JjTqtSb0rLUndCBzpXUn8i11KHRt9SkzonUptG81KjTudKBW8WK0KjStNOvfNWQbdWS07PVldK91ZfTgMSB04LGusWN1K7Th8y21LHUgdKe0LzUhNOQ1LfTk2XUutKX0pnRjdOb04zTntKh0ZbVgtKm0ZzVhcml1JbTqdKv1YvLu9WNzL58z49o1aPUo9K70brVp9Sp1anUq9WbNNWt07/SidW+1bPUtdKR1IfUudSK1LzUjNW91LPTn9WB0ZjVg9ST0qnWhtWI0abVitGr1YzVntCC1o/WkdG41aXUp9Woc9Wq1Zsx1pvUsNSA1p7UtNKP1LbTktSI1bjWpNW705rGqNeE1qnWgdar1oPTpNWG1ofVidaJ1rPWi9WezanWjs+K1pDTstaS1KXVptK/1pbWvdaYMTjXgdWv14PWqNW014fWotKV05bVutS91qfUv9Kg1JDXktWE1q7Sq9Oo15fUmteZ063MrHLMrnzQk9Wk0rzWu9el1r7FnNeq04nWndet1qDUhtS417HUu9eM1L7Vste31qrSpNeT1oXXvNSX1rHXmNKx15rTrtaN0bTYhteh1rrWldWZzIPXqdO91K/Xq9iP17bTjteG1qHYk9SJ17LUi9W8147WqNaA06HWrNaE17vVh9e92KDXv9ii063Stdim0JTYqNiI2KrUqtWa1K3YrtWu2I7Ustiy167YtdW31bnYudeN05zYsti91oLXutSV1rDUmdOr1rTTrtec2YnYh9aU16TYq9KC2I3VsNeP2ZbYktmY14vXtNi72Z3XuNib2aDXldmi1rLZhtaM1Y/Ot9WR2KfWudmM2avZjsyDN9Wd067QgtWh2IXZitqE2arTt9msW9aa2YfVn9qN2oPVlNqF2pLah9Wr2orRsta32pnWk9O12Y3Wl9WaNtqf1Y7Xnc+L2o7Zqdqk2obapsyDM9qp15zaodqP2prakdWY2p3IldqK2ILYhNCi2q7Vltqw16bVmsWi2qnYpdK324DZi9q51rzWvjHaidqW0ILYptCf24var9qc2rHVq9qV1Y3Zp9uJ25TakNuW2rrbmFvGhtuH2oDOvtqC257auNug243Xp9qo25HbptSg24rbn9uC25fbhMyDMdqz2pbXnNqY26nao9u026HbttWryJbaltaN2qHbvdei2InakzHZkNKF2ZLZr9iQ2LTZsteJ2ZnWpdi62ZzYmNeQ2L7YnNmB15bZhNmk2KPStdyG24HXo9u1244y2rTOldyi25Xbv9us1Zo50KjGssi7Ys+uy73Lv8yBz67Ph827zIvJvMy7zo0iz6nIudu+xIHEjc6Mz43Prs2w0JbPhMSZz6/MiMy0yoTPtM67ybDdjsyvzLdszLnNpty9zL3Mv8SrzbjQms6U0KDYpM2q3YjPg8SUzrDdnc60zpfdoN2p0KTQl8+F0IrPvtCEz6zdkc6Z0JXdpM+U0Kfdp8+YzbzJvM2+Yc6AzoLOhFLOhs+z3YLOi9Gsz7rOkc+93aHQgNCC3bTPqM6Rx57Ont2yzKDWks+HzqvdoN6X3azdit25xLnVod2g3p7emt2l0Jjdr8+I157doNaP3bXQht23zbfQmc603LrPms+cz57PoN6E16LPpWnPp9y/3pDEiM+rzYnelMyEz4fTst2Qz7DSuc6OZc6Qz7zEss++1o3Std6OxIHPgt6q0IjenM260Jxy0I/QlN+C0JLfl9+Oz5Lem96tzKvflNCP0KPek9CS36Ldo9CG0KbNt9KE0a5i0bDGmdGy07HSudyr3KTcgNiL2qjZkdac2ZTcmNmx1bbck9m01qbZttyY2Z7Xudat2aHZg9mj1orbr9K2d9a426rcrNiK1pjThN+314LYsd+62JHfvNaj2Ljcldmb14/goILZueCghNm74KCG2b3UnNeb07DSt9eg27Pfs9yt07vZrtes2ZXgoJbXiOCgmNiV2bXcl9ON4KCd1JLZgOCghdif4KCH2IDZv9Wg2oHVouCgp+CgjeCgqeCgj9uF3IzTvuCgk9+5043fu+CgsNiU17Pfv+CgtNW/2bjgoLfXlNav4KCh2KHgoKPai9uw1ZHgoYHdgtyJ2rvVnNu64KGa4KGA37HgoKjgoZ7botWs4KCS2LDgoYnUg+Cgr9ew2LfgoLLgoY/goJzgoZLYv+ChlNie1ojZheChmNqg157goIzgoZ3apdyB1pngoKzgoJTgoYrgoa3YtteK4KCZ2JbXteCggeChs9yb4KC54KG33J/goInWt+ChnNyI4KG+2IvXgOChqdmT1bHgooPckeCgl+Chjdma2JfgoLXgoovZuuChleCguuCgotmlzpnaq9ef4KGk4KGC4KGm4KG/16jgooHgoavWn+Cim+ChjOChr+ChjtyW4KGy2JrgoZPYndmC4KKk4KGX2aXavsSx2q3fsuCirNiL2K3cjd+44KKZ4KGs4KKy4KGu4KKG4KGw4KK22LzgoqHgoJ/goqPgoo7goIjgoL3ZqOCjguCilNaY4KOF4KGH4KGq4KOI4KKx1IXgopzgorTgop7goongoqDgorjgobTgorrcneCgu9m+1rXgoKXgoIvaouCik9uD1r7goYbYr+CimNmw4KKE2bPgoofgoLPgorfXkeCgnuCguOCgoOCivOChuOCiptWf4KOW4KGl4KOY24Xgoq/go53XheCjn+Cis+CjjOCiteCgm+Cjj+CjpeCijOCjvuCjk+CgvNWe1o3amNq34KG94KOw1pjbkNWN2ozgoL/go4HgpITgpJrVmtua4KCk4KC+26fVouCjrtip4KSi27fbpeCiqOCkoOCiq+CkhcyD267gpJ3cqeChu+Ckqdqb37TWmNu525vgpLXarOCkt9uM4KGEzIPcg9KE4KK/xL3YhdyH4KSq3KXgoJDgpJzgpJXgo6zgpYfco+Cjg9en4KWM4KGZ4KCK4KWP4KOX4KSr25ncqOCllduy4KSw4KWY26PXgNyE4KGi4KWW4KSh4KWK1ZrFhtqp4KSe4KSn4KWj4KWd4KWl27fgpLvgpKXbvOClkOCksdyC4KSt3KrgpaTgpLngpabgo7LcjuCgreCgleCjiuCihdyU4KKI4KCA4KOk4KO74KK53JzZvOCivdyg2qrgpbbgpazgpbjbt9yn4KGh4KSu4KWc4KSZ4KWtxrrcr96sIsSp0KzQruCjh+CjteClvuCjt+CjjeCkjtm34KSQ4KKi4KG2177goo/ImcS0yI7JnzrKtjTFucqox6zFksqOyo3QgcuS4Ka2",
+                      "faIcon": "fa fa-life-ring",
                       "faSize": 32
                     },
                     {
                       "name": "Salt Marsh Advancement",
                       "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
                       "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTUwNTc1LjA3Mzk5MTIxOTXEmnnFgcSTxYcyNjQ4Mi41NjgwNDc0xaLEv8SpeMSIxYQwxaQ0xbEuMTDFiMWPNjbFliLFmGHFrDrFhzbFksaBLjTFhsWRNzHFuMSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIjFtMWTxbXEmmzGjWVzdFfGm8adOjM4xYnEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xrvFqsWCxa3FhcWHxYnFi8WNxY/FkcWTxZXFl8WZxIjFm8WdxZ/FocWjxaXFp8WpIsWAxb3HhMWvxaXFssW0xbY5xbjFusW8xb7GgMaCMcaExoYxxojGisSBxrLGjsaQxpLGlMSGY8aXxIDGmsacxp4wxqAwxqLGpMamxqjHusarxq03fcavZnJhbWVJZMa2WzBdfciTxotlbGVjxLBkQmHEmMSpcEluZMSuxIgzxq/Gsm5lxKvGmMipZU51bWLGlMSIx77EgXTGpE9mUGx1Z8WCxrbEisiXyJnIm8i8yL7HgzoixIzJh25zL2Z1dHXEhF9oYWLEjsaNIsSayYvIv8mNxLPJncmAyY/JkcmTZcmVyZfJmcSyxphyb290L0NvbsiqyJppY8mRybDJssm0xo7Jt3Q0xZXFiDHEs2/GsmPEjnnItS43xJpjaMiZa2XGqnRydcSZInZpc2liyJhMYXnGlMiOyJDJvyzFh8qlMciVypfGlMqaybLEucepyoLIh8qx",
-                      "faIcon": "fa fa-leaf",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTUyOTI1LjUxMjYxMDk2MsSaecWBxJM1MDPFiMWbLjI3ODQyMzQwMcS/xKl4xIjFhMWSxZoyNC40NjM2OMWaMTjFlsWqxIjFmsWQNzIwLsWbODA4xbY3M8SaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIjFkTLFkTDEmmzGjWVzdFfGm8adOjPFtzfEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xrzFqcWCxazFhcWHxYnFi8WNxY/FkcWTxZUixZfHhDrFmsWcOcWexaDFosWkxabFqCLFgGHFqzrFrTnFr8WxxbPFtcW3xafFusePxbzHkjDFv8aBxoPGrcaGxojGisSBxrPGjsaQxpLGlMSGY8aXxIDGmsacxp4wxqAwxqIixqTEsManxqnIgMasxq59xrBmcmFtZUlkxrdbMF19yJrGi2VsZWPEsGRCYcSYxKlwSW5kxK7EiDPGsMazbmXEq8aYyLBlTnVtYsaUxIjIhcanxqVPZlBsdWfFgsa3xIrInsigyKLJgsmEx5EixIzJjW5zL2NvbW11bsSOecayxqRuyZpuZyLEmsmQyYXJksSzyaXJhsmUyZbJmMmaxLXJnWHJn8WCyaLGmHJvb3QvQ2/Jn8mKaWN1ybnJu8m9yKHJv8qBNTM1NjXHjcqLxLNvxrNjyZvIvC43xJpjaMiga2XGq8SkxJjGsHbGlHNpybzEuTEuMcmjIsm2ybjJusm8yLHKhcqAyoLKr8m+yrI2OcaANzXKj8qRypM6xoLKliLKmMqaypzEo8SWyp/EmsqsyrPKhMaOyrLKrsuMyoZ0Nzk4MsW3ODg5MTk0McWOyrxhypLEtcqUy4HLg2PKm8qdy4fEpsuJybfLi8qwy43KgcuPy6/LkcuexZDLm8WOxqDFj8ugy6J5y6TKl8qZy6fLhcSUy6rGsMuKy7LKtcuxyoPLs8qyMTPFp8qJMcWjzJHFjTQ4y7vKvsuAy7/LhMupxKXIjsmkyYPJpsmTZsqBdcSEX2hhYsSOxo3Es8yGzIrMiMuuzLA0x6IwxY3Ml8ujyr/KlcyazIHGq3RydcSZInZpyqNiyJ9MYXnGlMiVyJfMsyzFms2PMciczYLKosqkxJMiyqfKqciOzZs=",
+                      "faIcon": "fa fa-balance-scale",
+                      "faSize": 32
+                    },
+                    {
+                      "name": "Social Vulnerability Index",
+                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTgyMjk2LjQ0MDfFiTU3OcSaecWBxJM1MMWJMTE5LjY0NTUyM8WJN8S/xKl4xIjFhDA2xaA5NC4zNDI4Nzc2OTM1xZXFqcSIxZk4Njc1My4xxaA4xZkyxbTEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMcWaxqEwxJpsxo9lc3RXxp3Gnzozxok3xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a+xajFgsWrxYXFh8WJxYvFjcWPxZHFk8W9x4Y6xoo5xZzFnsWgxaLFpMWmxahhxao6xazFrjTFsMWyxbTFtsW4xbrFvCLFlsecxb8wxoHGg8aFxoc0xonFmsaMxIHGtcaQxpLGlMaWxIZjxpnEgMacxp7GoMaiMMakIsamxLDGqcaryIHGrsawfcayZnJhbWVJZMa5WzBdfciaxo1lbGVjxLBkQmHEmMSpcEluZMSuxqDGssa1bmXEq8aayK9lTnVtYsaWxIjIhcapxqdPZlBsdWfFgsa5xIrInsigyKLJgcmDx5EixIzJjG5zL8amecaWX8SYyJ/IoW9yIsSayY/JhMmRxLPJn8mFyZNhyZVyyZfJiMmayZzGmnJvb3QvQ2/IpXTEliDGk3NpxI3HvGUgKENUKcmyb27IsMihaWN1dDHFpMWhxoI4OcSzb8a1Y8SOeci7LsWnImNoyKBrZcatxKTEmMaydsaWybrKhcS5McaGyZ0iya7JsMqEybXJt8m5ybtpyb3Jv8qByoPJs8qGyYnKicqLxZzKjTEzMTQxNcaHypPKlcqXypnKm8qdyp/KocSjxJbKpMSayq/JscmzyrJsybjGqMq1yrfKgMqCyoTKvMqIyorKjMWFOTLGosWIy4lhypbEtcuMxJrLjmPKoMqiy5LEpsuUya/Llsm0yL3Lmcq0ybzGmMq4y5/Ku8qHxpDLo8aLMsWjNjLFkMWHxbowy4PLqsusypg6MMqay6/Knsuxy5A6dHJ1xJkidmnJumLIn0zJpsaWyJXIlzPImcayy5XKscu6y5rJusu9x73Lv8q6yoXMgsq+dDPMuTTFuzM2MzfGrzPFsMiyxIDKlMury4vMksyUypzMlsuyy5HEpcyry7fMrcm2y7vLm8yxyb7Lnsy0y6HMg8qLxbTMu8yPzYjMk8uNzYzMmMqjy7XKrs2Ry5fMrsu8yrbLvs2Yy6DMtsujxaE0xaA3zZ/Lrc2JzaLLj8uzzY/LtsqwSHVycsqJYciwIFPOhGR5L1POgGdlQm91yKrGtsq2cyBGxYLJt8aiNM22zJHNocyVzbrNjsuTzafNvs6AzoJjzoTJvs6HyKrOisunyo3Ohs6IzJHNhcuKzbfOn82LzqHElMu0yI7Ou30=",
+                      "faIcon": "fa fa-ambulance",
+                      "faSize": 32
+                    }
+                  ]
+              },
+              {
+                "name": "One-Click Maps <br> South Eastern CT <br> Regional Framework for Resilience",
+                "description": "Custom maps for economic, social, and ecosystem adaptation action",
+                "issues": [
+                    {
+                      "name": "Cat-3 1938 Hurricane",
+                      "description": "",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "",
+                      "faIcon": "fa fa-anchor",
+                      "faSize": 32
+                    },
+                    {
+                      "name": "Salt Marsh Advancement",
+                      "description": "",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "",
+                      "faIcon": "fa fa-umbrella",
+                      "faSize": 32
+                    },
+                    {
+                      "name": "Stonington Map",
+                      "description": "",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "",
+                      "faIcon": "fa fa-life-ring",
+                      "faSize": 32
+                    },
+                    {
+                      "name": "Groton Map",
+                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "",
+                      "faIcon": "fa fa-balance-scale",
+                      "faSize": 32
+                    },
+                    {
+                      "name": "Waterford Map",
+                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "",
+                      "faIcon": "fa fa-ambulance",
+                      "faSize": 32
+                    },
+                    {
+                      "name": "East Lyme Map",
+                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "",
+                      "faIcon": "fa fa-balance-scale",
+                      "faSize": 32
+                    },
+                    {
+                      "name": "Old Lyme Map",
+                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "",
+                      "faIcon": "fa fa-balance-scale",
+                      "faSize": 32
+                    }
+                  ]
+              },
+              {
+                "name": "One-Click Maps <br> South Western CT <br> Regional Framework for Resilience",
+                "description": "Custom maps for adaptation, conservation, and hazard mitigation",
+                "issues": [
+                    {
+                      "name": "Cat-3 1938 Hurricane",
+                      "description": "",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "",
+                      "faIcon": "fa fa-anchor",
+                      "faSize": 32
+                    },
+                    {
+                      "name": "Salt Marsh Advancement",
+                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "",
+                      "faIcon": "fa fa-balance-scale",
                       "faSize": 32
                     }
                   ]
