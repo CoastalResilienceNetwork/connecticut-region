@@ -184,7 +184,14 @@
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTgwNzYyLjkyMjg0OTXFj8SaecWBxJM1MMWGMTAzLjE1ODgyMTbFjcS/xKl4xIjFhMWlxYo4Ny42NjA2xYYwNDLFlcWpxIjFmTI1M8WILjM0xa8zNzU1OcSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIjFnMWkMDDEmmzGjWVzdFfGm8adOjM4NTfEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xr3FqMWCxavFhcWHxYnFi8WNxY/FkcWTOMW6x4U6xZnFm8WdxZ/FocWjxaXFpyLFgGHFqjrFrMWyxY/FsMWyxbTFtsW4xbrHncW8MMW+xoDFsMaDxoXGh8aJxovGtMaOxpDGksaUxIZjxpfEgMaaxpzGnserxZzGoiLGpMSwxqfGqce+xqzGrsawxrFmcmFtZUlkxrhbMF19yJfGi2VsZWPEsGRCYcSYxKlwSW5kxK7EiDPGsca0bmXEq8aYyK1lTnVtYsaUxIjIgsanxqVPZlBsdWfFgsa4xIrIm8idyJ/Iv8mBx5EixIzJim5zL2NvbW11bsSOecazxqRuyZduZyLEmsmNyYLJj8SzyaLJg8mRyZPJlcmXxLXJmmHJnMWCyZ/GmHJvb3QvQ2/JnMmHaWN1ybbJuMm6yJ7JvMm+xb81NsaJxYrKh8Szb8a0Y8mYyLkuN8SaY2jInWtlxqt0cnXEmSJ2aXNpYsicTGF5xpTIksiUNjMsNjTImcqexpTKocm5xLkxxZ/JoCLJs8m1ybfJuciuyoLJvcm/yr3Ju8uAxaY3MsaHyovKjcqPOjDKkcqTypVjypfGq8SkxJjGscq6y4HKgcaOy4DKvMuZyoN0NznFo8auxaI5MTk0MTEyy4lhyo7EtcqQypIiypTKlsqYxKPElsuVxJrLl8ucyr7Lmsm+y7vLg8m+y6nFtcumy6rFpDI2y6zLrnnLsMuPy7TLk8u3xKbLucm0y5jLvMuey7/Kv8yBxoAxMzUxxbjMnsydxoTMicuLy43Lscuzy5HLtcSUzJB9yKzJgMmjyZBmyb51xIRfaGFixI7GjcSzy7rKgMyVy5vMvcyAdMeNMMydzKPLr8uMy47LssuQy5LEiMqaypzEmsqfyqHKo2XKpcqncsqpxIhbxZEsxZnNnDHKsHbKsmnKtDoiyrYxIsyszao=",
                       "faIcon": "fa fa-bullhorn",
                       "faSize": 32
-                    },
+                    }
+                  ]
+              },
+              {
+                "name": "One-Click Maps <br> Salt Marsh Advancement",
+                "description": "Custom maps with advancement zones, parcels, and open space",
+                "hideByDefault": true,
+                "issues": [
                     {
                       "name": "Westport",
                       "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
@@ -216,7 +223,14 @@
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTQ5Mjk3LsWGMjQyMzQ4NDXEmnnFgcSTNTAzMjY4OC7FicWIxYU3OTbEv8SpeMSIxYQxxZE4MjEuxZ8wMTnFtTk5xZbFqcSIxZozOTjFiC7FksW2xYo2NjTEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMTDFsDAwxJpsxotlc3RXxpnGmzozODU3xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a8xajFgsWrxYXFh8WJxYvFjcWPxa7FlMW6x4Q6xb3FncWfxaHFuDLFpMWmxahhxao6xazFrsWwxbI4xbTGhMW4xbrHmsW8xZvFv8aBxoPFtTfGhsaIxIHGs8aMxo7GkMaSxIZjxpXEgMaYxprGnMaexp3GoSLGo8SwxqbGqMe7xqvGrcavxrBmcmFtZUlkxrdbMF19yJTGiWVsZWPEsGRCYcSYxKlwSW5kxK7EiDPGsMazbmXEq8aWyKplTnVtYsaSxIjHv8amxqRPZlBsdWfFgsa3xIrImMiayJzIvMi+x48ixIzJh25zL2NvbW11bsSOecayxqNuyZRuZyLEmsmKyL/JjMSzyZ/JgMmOyZDJksmUxLXJl2HJmcWCyZzGlnJvb3QvQ2/JmcmEaWN1ybPJtcm3yJvJucm7NTM1NjXFpsWdNcSzb8azY8mVyLYuN8SaY2jImmtlxqrEpMSYxrB2xpJzacm2xLnFsTHJnSLJsMmyybTJtsiryb/Jusm8yqnJuMqsNsWKMjfKicaWyothyo3EtcqPypEiypPKlcqXxIh0cnXEmSJ2acqeYsiZTGF5xpLIj8iRx60sNzfIlsqlybHKrcm+xozKrMqoy5rKgHTFpcWvxq3Fn8aENDExMsqKyozKjjowypDKksqUY8qWypjElsqaxJrKpsuZyqrLm8m7y53Lusufy6c2y6fFtjLFsMWdy6rKuMusy67KvMq+y7LLgMSUy7XEpsu3y5jLvcqvy7zJvcu+yqzFrcW0yoPFjcWGNcWGOMyHyrl5yrvLsMq/y7TEpX3Iqci9yaDJjWbJu3XEhF9oYWLEjsaLxLPLuMyUyqvMlsquzLx0xYfFmsyfzKLMicuvyr3Lscuzy4HLg8uFy4fLicuLy43Lj8iQxIhbxYcsxZrNljHLlsqccsqeyqA6IsqiIsyqzaM=",
                       "faIcon": "fa fa-tree",
                       "faSize": 32
-                    },
+                    }
+                  ]
+              },
+              {
+                "name": "One-Click Maps <br> Salt Marsh Advancement",
+                "description": "Custom maps with advancement zones, parcels, and open space",
+                "hideByDefault": true,
+                "issues": [
                     {
                       "name": "Milford",
                       "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
@@ -256,7 +270,14 @@
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTEwNDEyLjE5Mjk0MDY5MTXEmnnFgcSTNcWIODYzOS43NTE2MsWNNzLEv8SpeMSIxYTFhzMxNzQuNTYxODI0xbI4xZfFq8SIxZs1MsW5MS44NDY1ODDGi8WWxIFwYXRpxJZSZWZlxITEncS4xIkid2tpZMSIxYfFpsaLxJpsxpBlc3RXxp7GoDozODU3xKciX8aPcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a+xarFgsWtxYXFh8WJxYvFjcWPxZHFk8WVxb3HhjrFmzTFncWfxaHFo8WlxafFqSLFgGHFrDrFrjDFsMWyxbTFtsW4xbrHlcW9x5/FvzDGgcaDxoXGh8aJxovHrsSaxIvGkMaSbMaUxpbGmGPGmsSAxp3Gn8ahMMajMMalxqfGqcaryILGrsawxrLGs2ZyYW1lSWTGuVswXX3Imse2ZWxlY8SwZEJhxJjEqXBJbmTErsSIM8azxo9uZcSrxpvIsGVOdW1ixpfEiMiGxIF0xqdPZlBsdWfFgsa5xIrInsigyKLJg8mFx5IixIzJjm5zL2NvbW11bsSOeca1xqZuyZtuZyLEmsmRyYbJk8SzyabJh8mVyZfJmcmbxLXJnmHJoMWCyaPGm3Jvb3QvQ2/JoMmLaWN1ybrJvMm+yKHKgMqCNTPFtTU5xaXGiMSzb8aPY8mcyLzFocSaY2jIoGtlxq3EpMSYxrN2xpdzacm9xLnGhDHJpCLJt8m5ybvJvcixyobKgcqDyq7Jv8qxxZPFqMWiypDKksqUOjDKliLKmMqaypzEo8SWyp/EmsqryrLKhcaRyrHKrcuJyod0NznFuMawODjFlMWQxYYyyrlhypPEtcqVN8qXypljypvGrXRydcSZInZpyqNiyJ9MYXnGl8iVyJfFjiw5M8icyqrJuMuIyq/LisqCy4zLvcuOxYbFtsWNxYrFpjI2y5rLnHnLnsugy4HKncuExKbLhsu7zIDKtMu/yoTMgcqxMTMwzJvFozTFpjTMnzjMisq7yr3Ln8q/y6HLo8uDxKV9yK/JhMmnyZRmyoJ1xIRfaGFixI7GkMSzy4fMlcqwzJfKs82AdDQ5xoDKqMabypHLm8ymyr7LgMuiy4I6y6XLp8Say6rLrMuuy7DLssiWxIhbzYUsxZvNnjHLucqhcsqjyqU6IsqnIsyuzas=",
                       "faIcon": "fa fa-calendar-plus-o",
                       "faSize": 32
-                    },
+                    }
+                  ]
+              },
+              {
+                "name": "One-Click Maps <br> Salt Marsh Advancement",
+                "description": "Custom maps with advancement zones, parcels, and open space",
+                "hideByDefault": true,
+                "issues": [
                     {
                       "name": "Guilford",
                       "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
@@ -296,7 +317,14 @@
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDY1NTk2LjIwNzc5NTI0NcSaecWBxJM1MDQ5MDkzLsWJNjTFjzAyNsS/xKl4xIjFhDA1MTHFjS45xZQ1NjM3xYnFlsWqxIjFmsW2Mjk3Ljc4xbc5MjjFtMSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxxabGnzDEmmzGjWVzdFfGm8adOjM4NTfEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xr3FqcWCxazFhcWHxaLFjMWOxZDFksWUxbvHhTrFmsWcxZ7FoMWixaQ3xabFqCLFgGHFqzrFrcWvxbEwxbPFtcW3xbk5xbvHncW9xa42xoDGgsaExobGiMaKxIHGtMaOxpDGksaUxIZjxpfEgMaaxpzGnsagMMaiIsakxLDGp8apx7/GrMauxrDGsWZyYW1lSWTGuFswXX3ImMaLZWxlY8SwZEJhxJjEqXBJbmTErsSIM8axxrRuZcSrxpjIrmVOdW1ixpTEiMiDxqfGpU9mUGx1Z8WCxrjEisicyJ7IoMmAyYLHkCLEjMmLbnMvY29tbXVuxI55xrPGpG7JmG5nIsSayY7Jg8mQxLPJo8mEyZLJlMmWyZjEtcmbYcmdxYLJoMaYcm9vdC9Db8mdyYhpY3XJt8m5ybvIn8m9yb81M8W2xaLFpzXEs2/GtGPJmci6xoPEmmNoyJ5rZcarxKTEmMaxdsaUc2nJusS5MS4xyaEiybTJtsm4ybrIr8qDyb7KgMqrybzKrjbGgTLFucqMyo7KkDrHozfKk8qVY8qXypnElsqbxJrKqMqvyoLGjsquyqrLh8qEdMWQOMaINTjGiTHFtMWwMsq3YcqPxLXKkcq8IsqUypbKmMSjy4LEpsuEybXLhsqsy4jJv8uKy6jLjMWwNsWwOcWxMsWxNsuYy5p5y5zKvcugxqt0cnXEmSJ2acqfYsidTGF5xpTIk8iVxbEzLMWxNMiayqfLpsuryrHLqsqBy6zKrjEzMMybxa80y7PFlDE0OMu2yrnKu8u6yr/LocSUy6N9yK3JgcmkyZFmyb91xIRfaGFixI7GjcSzy4XMlcqtzJfKsM2AdMWcxb7KpcaYyo3LmcynypLLnsq+y4DEiMu9y7/EmsyCzITMhsyIzIrIlMSIW8WcLMWazZ0xzJLKnXLKn8qhOiLKo8qlzK7Nqg==",
                       "faIcon": "fa fa-cogs",
                       "faSize": 32
-                    },
+                    }
+                  ]
+              },
+              {
+                "name": "One-Click Maps <br> Salt Marsh Advancement",
+                "description": "Custom maps with advancement zones, parcels, and open space",
+                "hideByDefault": true,
+                "issues": [
                     {
                       "name": "Old Lyme",
                       "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
