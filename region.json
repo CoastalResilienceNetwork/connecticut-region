@@ -40,7 +40,6 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "projectSelector",
         "layer_selector",
 		"community_planning",
 		"flood_slr",
@@ -100,7 +99,7 @@
             "description": "Coastal Resilience is a decision support tool that provides local, regional, state and national stakeholders a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal and inland hazards.  If you need help figuring out how to start, click on the Tour tab near the top right of the screen, or visit our <a href='http://coastalresilience.org/training' target='_blank'>Training</a> page.",
             "showSubRegions": true,
             "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map for Connecticut.",
-            "showByDefault": false,
+            "showByDefault": true,
             "categories": [
               {
                 "name": "One-Click Maps <br> South Central CT <br> Regional Framework for Resilience",
@@ -192,7 +191,14 @@
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTcxMjIwLjIzNzU5OTMxNsSaecWBxJM1MDI2MMWFxYw3MzY0OTE0xL/EqXjEiMWExZQzOTgyLsWdxaM4M8WOM8WWxanEiMWaMjk2xbUuxaI4xZ3FhzfFp8SBcGF0acSWUmVmZcSExJ3EuMSJIndraWTEiDHFm8acMMSabMaKZXN0V8aYxpo6Mzg1N8SnIl/GiXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGucWoxYLFq8WFxYfFicWLxY3Fj8WRxZPFlSLFl8eBOsW8xZ3FnzLFocWjxaXGh8WAYcWqOsWsNsWuxbDFsjDFtMW2xaHFuceZxbvFm8W+xoDGgsaExYbGh8SLxorGjGzGjsaQxpJjxpTEgMaXxpnGm8adMMafIsahxLDGpMamx7rGqcarxq3GrmZyYW1lSWTGtFswXX3Ik8SaxJhsZWPEsGRCYcSYxKlwSW5kxK7EiDPGrsaJbmXEq8aVyKllTnVtYsaRxIjHvsakxqJPZlBsdWfFgsa0xIplyJjImmVkyLvIvceOIsSMyYhucy9jb21tdW7EjnnGsMahbsmVbmcixJrJi8i+yY3Es8mgyL/Jj8mRyZPJlcS1yZhhyZrFgsmdxpVyb290L0NvyZrImcaLY3XJtMm2ybjImmnJu3Q1MzU2xZA2xZw1xLNvxoljyZbItS43xJpjaMiZa8mFxIh0cnXEmSJ2aXNpYsiYTGF5xpHIjsiQNsWVNjfIlcqfxpHKosm3xLkxLjHJniLJscmzybXJt8iqyoDKgsq9yb/Jusm8Njk3x5PKi8aVyo1hyo/EtcqRypMiypXKl8qZxJTElsSYxq7Ku8m9yr7JucqBybzLgsq/y4R0N8WvMsarODjFpTk0McWIyozKjsqQOsWLy5HLk2PKmMaoxKTLmMSay5rLoMudy4HJvsuhy550y602y63FpcWJxYg2y6/Ljcuxy7PKlMqWy7bLlcu5xKbLu8myy5vLg8yCy73LgMm8MTMwzJ01xaYyxabMoTQ4zIvLjnnLkMyPy5TLuMuXxKbIqMi8yaHJjmbJvHXEhF9oYWLEjsaKxLPLvMyAy77Ln82BzJt0xaTFmsyhzKjMjcqSzKzMkcaoypvKncSayqDKosqkZcqmyqhyyqrEiFvFpCzFms2eMcqwdsqyacq0OiLKtsq4fc2rzas=",
                       "faIcon": "fa fa-anchor",
                       "faSize": 32
-                    },
+                    }
+                  ]
+              },
+              {
+                "name": "One-Click Maps <br> Salt Marsh Advancement",
+                "description": "Custom maps with advancement zones, parcels, and open space",
+                "hideByDefault": true,
+                "issues": [
                     {
                       "name": "Fairfield",
                       "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
@@ -232,7 +238,14 @@
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTI5NzAwLjU5OcWHNjg5OMSaecWBxJM1MDQ2NTjFizfFhzHFoDYwN8S/xKl4xIjFhDExNTIyNS4zM8WJxZw0xYbFlcWoxIjFmTXFtDg0LjkxOTA4xb83NDXEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMTAyxp8wxJpsxo1lc3RXxpvGnTozODU3xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a+xafFgsWqxYXFh8WJxYvFjcWPOcWRxZPFuceGOsWZxZvFncWfxaHFo8Wlxadhxak6xavFrcWvxbHFs8W1NcW3MsW5x5zFuzDFvTfFv8aBxoPGhcaHxonGi8a1xo7GkMaSxpTEhmPGl8SAxprGnMaexqDGosakxqbGqMaqx7/GrcavxrHGsmZyYW1lSWTGuVswXX3IlsaLZWxlY8SwZEJhxJjEqXBJbmTErsSIM8ayxrVuZcSrxpjIrGVOdW1ixpTEiMajxIF0xqZPZlBsdWfFgsa5xIrImsicyJ7Iv8mBx5IixIzJim5zL2NvbW11bsSOeca0xqVuyZduZyLEmsmNyYLJj8SzyaLJg8mRyZPJlcmXxLXJmmHJnMWCyZ/GmHJvb3QvQ2/JnMmHaWN1ybbJuMm6yJ3JvMm+xb01xZzHjjLFnMSzb8a1Y8mYyLguxaYiY2jInGtlxqzEpMSYxrJ2xpRzacm5xLkxLjHJoCLJs8m1ybfJucityoLJvcm/yqvJu8quNsWIMjc1yovKjcqPOsWfxJrKlMqWypjEo8SWypvEmsqoyq/KgcaOyq7KqsuHyoN0N8WTMsavxobGgjnFt8WGyrhhyo7EtcqQypLKvmPKl8asdHJ1xJkidmnKn2LIm0xhecaUyJHIkzgzLMW/yJjKp8m0y4bKrMuIyb7Lisu5y4zFrDbFrMaCxa/FhjbLl8uZecubyr3Klcuey4DElMuCxKbLhMu3y7zKscu7yoDLvcquMTMwzJk1MTTGocaJzJ44zIbKusq8ypPMi8ufy4HEpX3Iq8mAyaPJkGbJvnXEhF9oYWLEjsaNxLPLhcyTyq3MlcqwzL50NDnFvMqlxpjKjMuYzKXKkcyKyr/LoMuiy6TLpsuoy6rLrMuuyJLEiFvNgyzFmc2aMcu1yp1yyp/KoToiyqPKpcyszac=",
                       "faIcon": "fa fa-map-signs",
                       "faSize": 32
-                    },
+                    }
+                  ]
+              },
+              {
+                "name": "One-Click Maps <br> Salt Marsh Advancement",
+                "description": "Custom maps with advancement zones, parcels, and open space",
+                "hideByDefault": true,
+                "issues": [
                     {
                       "name": "New Haven",
                       "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
@@ -272,7 +285,14 @@
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDg2NzgzLjU5NjU3Mjk4OMSaecWBxJM1MDQ3xZ05LsWKxZo1MzTFhsS/xKl4xIjFhDDFkTPFhi4zxaTFpDHFmjLFlsWoxIjFojTFkzQuMDLFuzY5Mjc1xJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDHFv8abMMSabMaJZXN0V8aXxpk6MzjFkMSnIl9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGuMWnxYLFqsWFxYfFicWLxY3Fj8WRxZPFlSLFl8eAOsWaxZzFnsWgM8WixaTFpiLFgGHFqTrFq8Wtxa/FsTTFs8W1xbfHmcW5MDXFuzjFvcW/xoHGg8aFxofGr8aKxozGjsaQxIZjxpPEgMaWxpjGmsacMMaeIsagxLDGo8alx7rGqMaqN33GrGZyYW1lSWTGs1swXX3IlMaHZWxlY8SwZEJhxJjEqXBJbmTErsSIM8asxq9uZcSrxpTIqmVOdW1ixpDEiMe+xqPGoU9mUGx1Z8WCxrPEisiYyJrInMi8yL7HjSLEjMmHbnMvY29tbXVuxI55xq7GoG7JlG5nIsSayYrIv8mMxLPJn8mAyY7JkMmSyZTEtcmXYcmZxYLJnMaUcm9vdC9Db8mZyYRpY3XJs8m1ybfIm8m5ybvFozXFj8WOMsWPxLNvxq9jyZXIti43xJpjaMiaa2XGp8SkxJjGrHbGkHNpybbEuTEuMcmdIsmwybLJtMm2yKvJv8m6ybzKqMm4yqvGgsWRxoXKiMqKyow6MMqOypDKkmPKlMqWxJbKmMSayqXKrMm+xorKq8qny4PKgHQ3xZMyxqrFlDkxOTQxMTLKs2HKi8S1yo3KjyLKkcqTypXEiHRydcSZInZpypxiyJlMYXnGkMiPyJHLkzMsy5M0yJbKpMmxy4LKqcuEybvLhsu6y4jLkzbLk8uPMjLLlDbLlsuYecuayrnLnsq9xKXGrMuBy73Krsu8yb3LvsqrMcWuzJg1MTTMhTTMmzQ4zIjKtcq3y5vLncq7y5/ElMq+xKbIqci9yaDJjWbJu3XEhF9oYWLEjsaJxLPMkcyVzJPLucy+xbvFosqixpTKicuXzKTKuMucyrrKvMugy6LLpMumy6jLqsusy67IkMSIW8W7LMWazZgxy7bKmnLKnMqeOiLKoMqiyIjNpQ==",
                       "faIcon": "fa fa-bullhorn",
                       "faSize": 32
-                    },
+                    }
+                  ]
+              },
+              {
+                "name": "One-Click Maps <br> Salt Marsh Advancement",
+                "description": "Custom maps with advancement zones, parcels, and open space",
+                "hideByDefault": true,
+                "issues": [
                     {
                       "name": "Clinton",
                       "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
@@ -312,7 +332,14 @@
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDQ3NTU3LjA2OTExOTk2xYjEmnnFgcSTNTA1NDIxNC44NzczN8WeMjTEv8SpeMSIxYQwMzMwODHFocWNOMW3NDgyxZbFq8SIxZo2xZ/FkcWMxZQyxaLFksW7xIFwYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMTDFnjAwxJpsxotlc3RXxpnGmzozOMWKxKciX8aKcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a6xarFgsWtxYXFh8WJxYvFjcWPxZHFk8WVIsWXx4I6xZrFnMWexaDFosWkxaYxxajFqmHFrDrFrsWwxbLFtMWFNsW3OMW5xojFl8ebxb7FjcaBOcaDxabGhjnGiMSLxovGjWzGj8aRxpNjxpXEgMaYxprGnMaexp3GoSLGo8SwxqbGqMe+xqvGrTd9xq9mcmFtZUlkxrVbMF19yJjEmsSYbGVjxLBkQmHEmMSpcEluZMSuxIgzxq/Gim5lxKvGlsiuZU51bWLGksSIyILGpsakT2ZQbHVnxYLGtcSKZcidyJ9lZMmAyYLHjyLEjMmNbnMvY29tbXVuxI55xrHGo27Jmm5nIsSayZDJg8mSxLPJpcmEyZTJlsmYyZrEtcmdYcmfxYLJosaWcm9vdC9Db8mfyJ7GjGN1ybnJu8m9yJ9pyoB0NTM1NjXFkzLKjMSzb8aKY8mbyLouN8SaY2jInmvJisSjxJbEmMavdsaSc2nJvMS5xbQxyaMiybbJuMm6ybzIr8qFyofKr8qEyb/KgcWOxabFiMqRypPKlTowypfKmcqbY8qdxqrEpMqhxJrKrcqCyrDJvsqGyoHKtMqxyrZ0NznFusatxbfFjzk0xZAyyrthypTEtcqWypgiyprKnMqexJTKoMSmy4jJt8uKyrXLjcusy5DLrsWQxoDFkceYxac2y53Ln3nLocuBy6XLhcuoxq/LicuPy4zKs8qDy7DKhzHFscyINcWfx5PMi8W5y7jKvcq/y6LLpMuDy6Z0cnXEmSJ2acqlYsidTGF5xpLIk8iVzIgxLMyIMsiYyK3JgcmmyZNmyoF1xIRfaGFixI7Gi8SzzIHMhcyDy47MvcqyyoE0OceRyqrGlsqSy57MkcuAy6PLgsuExIjMl8yZxJrMnMyezKDMosykyJTEiFvNgyzFms2cMciazJvKpMqmxJMiyqkiyIzNqA==",
                       "faIcon": "fa fa-database",
                       "faSize": 32
-                    },
+                    }
+                  ]
+              },
+              {
+                "name": "One-Click Maps <br> Salt Marsh Advancement",
+                "description": "Custom maps with advancement zones, parcels, and open space",
+                "hideByDefault": true,
+                "issues": [
                     {
                       "name": "Waterford",
                       "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
