@@ -100,7 +100,7 @@
             "description": "Coastal Resilience is a decision support tool that provides local, regional, state and national stakeholders a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal and inland hazards.  If you need help figuring out how to start, click on the Tour tab near the top right of the screen, or visit our <a href='http://coastalresilience.org/training' target='_blank'>Training</a> page.",
             "showSubRegions": true,
             "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map for Connecticut.",
-            "showByDefault": false,
+            "showByDefault": true,
             "categories": [
               {
                 "name": "One-Click Maps <br> South Central CT <br> Regional Framework for Resilience",
