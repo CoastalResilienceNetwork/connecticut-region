@@ -11,6 +11,10 @@
     {
       "repo": "explorer",
       "name": "risk_explorer"
+    },
+    {
+      "repo": "filterSelect",
+      "name": "projectSelector"
     }
   ]
 }
