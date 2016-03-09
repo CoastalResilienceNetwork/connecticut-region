@@ -10,7 +10,7 @@
 	"buttons": {"text":"Regional Framework for Resilience Info", "url": "NOTHING"},
 	"methods": "plugins/natural_defenses/Online_Database_Methods.pdf",
 	"projectDesc": "http://www.snap.is/groups/coastal-defenses/",
-    "mapServer": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Connecticut/Southern_CT_Projects/MapServer",
+    "mapServer": "http://services.coastalresilience.org/arcgis/rest/services/Connecticut/Southern_CT_Projects/MapServer",
 	"defaultLegendItem": "Projects",
 	"fieldSelected": "",
 	"attributeSelected": "",
