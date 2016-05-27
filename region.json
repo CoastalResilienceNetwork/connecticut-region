@@ -45,7 +45,7 @@
 		"community_planning",
 		"flood_slr",
 		"risk_explorer",
-		"future_habitat",
+        "habitat_explorer",
         "measure"
     ],
     "print": {
