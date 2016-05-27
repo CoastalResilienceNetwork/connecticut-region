@@ -1,0 +1,21 @@
+[
+    {
+        "agsSource": {
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Connecticut",
+            "folderTitle": "Connecticut",
+            "folders": [
+                {
+                    "name": "",
+                    "services": [
+                        { "name": "Connecticut", "type":"dynamic", "displayName":"Marsh Advancement Zones", "showLayers": [
+                                {"id":49, "parentLayerId":-1 },
+                                {"id":50, "parentLayerId":-1 },
+                                {"id":51, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                }
+            ]
+        }
+    }
+]

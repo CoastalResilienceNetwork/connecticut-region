@@ -43,6 +43,7 @@
     "projectSelector",
         "layer_selector",
 		"community_planning",
+        "future_habitat",
 		"flood_slr",
 		"risk_explorer",
         "habitat_explorer",
