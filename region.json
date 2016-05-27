@@ -40,7 +40,6 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "projectSelector",
         "layer_selector",
 		"community_planning",
 		"flood_slr",
@@ -132,7 +131,7 @@
                     },
                     {
                       "name": "Salt Marsh Advancement",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTUyOTI1LjUxMjYxMDk2MsSaecWBxJM1MDPFiMWbLjI3ODQyMzQwMcS/xKl4xIjFhMWSxZoyNC40NjM2OMWaMTjFlsWqxIjFmsWQNzIwLsWbODA4xbY3M8SaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIjFkTLFkTDEmmzGjWVzdFfGm8adOjPFtzfEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xrzFqcWCxazFhcWHxYnFi8WNxY/FkcWTxZUixZfHhDrFmsWcOcWexaDFosWkxabFqCLFgGHFqzrFrTnFr8WxxbPFtcW3xafFusePxbzHkjDFv8aBxoPGrcaGxojGisSBxrPGjsaQxpLGlMSGY8aXxIDGmsacxp4wxqAwxqIixqTEsManxqnIgMasxq59xrBmcmFtZUlkxrdbMF19yJrGi2VsZWPEsGRCYcSYxKlwSW5kxK7EiDPGsMazbmXEq8aYyLBlTnVtYsaUxIjIhcanxqVPZlBsdWfFgsa3xIrInsigyKLJgsmEx5EixIzJjW5zL2NvbW11bsSOecayxqRuyZpuZyLEmsmQyYXJksSzyaXJhsmUyZbJmMmaxLXJnWHJn8WCyaLGmHJvb3QvQ2/Jn8mKaWN1ybnJu8m9yKHJv8qBNTM1NjXHjcqLxLNvxrNjyZvIvC43xJpjaMiga2XGq8SkxJjGsHbGlHNpybzEuTEuMcmjIsm2ybjJusm8yLHKhcqAyoLKr8m+yrI2OcaANzXKj8qRypM6xoLKliLKmMqaypzEo8SWyp/EmsqsyrPKhMaOyrLKrsuMyoZ0Nzk4MsW3ODg5MTk0McWOyrxhypLEtcqUy4HLg2PKm8qdy4fEpsuJybfLi8qwy43KgcuPy6/LkcuexZDLm8WOxqDFj8ugy6J5y6TKl8qZy6fLhcSUy6rGsMuKy7LKtcuxyoPLs8qyMTPFp8qJMcWjzJHFjTQ4y7vKvsuAy7/LhMupxKXIjsmkyYPJpsmTZsqBdcSEX2hhYsSOxo3Es8yGzIrMiMuuzLA0x6IwxY3Ml8ujyr/KlcyazIHGq3RydcSZInZpyqNiyJ9MYXnGlMiVyJfMsyzFms2PMciczYLKosqkxJMiyqfKqciOzZs=",
                       "faIcon": "fa fa-balance-scale",
@@ -140,7 +139,7 @@
                     },
                     {
                       "name": "Social Vulnerability Index",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTgyMjk2LjQ0MDfFiTU3OcSaecWBxJM1MMWJMTE5LjY0NTUyM8WJN8S/xKl4xIjFhDA2xaA5NC4zNDI4Nzc2OTM1xZXFqcSIxZk4Njc1My4xxaA4xZkyxbTEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMcWaxqEwxJpsxo9lc3RXxp3Gnzozxok3xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a+xajFgsWrxYXFh8WJxYvFjcWPxZHFk8W9x4Y6xoo5xZzFnsWgxaLFpMWmxahhxao6xazFrjTFsMWyxbTFtsW4xbrFvCLFlsecxb8wxoHGg8aFxoc0xonFmsaMxIHGtcaQxpLGlMaWxIZjxpnEgMacxp7GoMaiMMakIsamxLDGqcaryIHGrsawfcayZnJhbWVJZMa5WzBdfciaxo1lbGVjxLBkQmHEmMSpcEluZMSuxqDGssa1bmXEq8aayK9lTnVtYsaWxIjIhcapxqdPZlBsdWfFgsa5xIrInsigyKLJgcmDx5EixIzJjG5zL8amecaWX8SYyJ/IoW9yIsSayY/JhMmRxLPJn8mFyZNhyZVyyZfJiMmayZzGmnJvb3QvQ2/IpXTEliDGk3NpxI3HvGUgKENUKcmyb27IsMihaWN1dDHFpMWhxoI4OcSzb8a1Y8SOeci7LsWnImNoyKBrZcatxKTEmMaydsaWybrKhcS5McaGyZ0iya7JsMqEybXJt8m5ybtpyb3Jv8qByoPJs8qGyYnKicqLxZzKjTEzMTQxNcaHypPKlcqXypnKm8qdyp/KocSjxJbKpMSayq/JscmzyrJsybjGqMq1yrfKgMqCyoTKvMqIyorKjMWFOTLGosWIy4lhypbEtcuMxJrLjmPKoMqiy5LEpsuUya/Llsm0yL3Lmcq0ybzGmMq4y5/Ku8qHxpDLo8aLMsWjNjLFkMWHxbowy4PLqsusypg6MMqay6/Knsuxy5A6dHJ1xJkidmnJumLIn0zJpsaWyJXIlzPImcayy5XKscu6y5rJusu9x73Lv8q6yoXMgsq+dDPMuTTFuzM2MzfGrzPFsMiyxIDKlMury4vMksyUypzMlsuyy5HEpcyry7fMrcm2y7vLm8yxyb7Lnsy0y6HMg8qLxbTMu8yPzYjMk8uNzYzMmMqjy7XKrs2Ry5fMrsu8yrbLvs2Yy6DMtsujxaE0xaA3zZ/Lrc2JzaLLj8uzzY/LtsqwSHVycsqJYciwIFPOhGR5L1POgGdlQm91yKrGtsq2cyBGxYLJt8aiNM22zJHNocyVzbrNjsuTzafNvs6AzoJjzoTJvs6HyKrOisunyo3Ohs6IzJHNhcuKzbfOn82LzqHElMu0yI7Ou30=",
                       "faIcon": "fa fa-ambulance",
@@ -179,7 +178,7 @@
                     },
                     {
                       "name": "Norwalk",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTgwNzYyLjkyMjg0OTXFj8SaecWBxJM1MMWGMTAzLjE1ODgyMTbFjcS/xKl4xIjFhMWlxYo4Ny42NjA2xYYwNDLFlcWpxIjFmTI1M8WILjM0xa8zNzU1OcSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIjFnMWkMDDEmmzGjWVzdFfGm8adOjM4NTfEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xr3FqMWCxavFhcWHxYnFi8WNxY/FkcWTOMW6x4U6xZnFm8WdxZ/FocWjxaXFpyLFgGHFqjrFrMWyxY/FsMWyxbTFtsW4xbrHncW8MMW+xoDFsMaDxoXGh8aJxovGtMaOxpDGksaUxIZjxpfEgMaaxpzGnserxZzGoiLGpMSwxqfGqce+xqzGrsawxrFmcmFtZUlkxrhbMF19yJfGi2VsZWPEsGRCYcSYxKlwSW5kxK7EiDPGsca0bmXEq8aYyK1lTnVtYsaUxIjIgsanxqVPZlBsdWfFgsa4xIrIm8idyJ/Iv8mBx5EixIzJim5zL2NvbW11bsSOecazxqRuyZduZyLEmsmNyYLJj8SzyaLJg8mRyZPJlcmXxLXJmmHJnMWCyZ/GmHJvb3QvQ2/JnMmHaWN1ybbJuMm6yJ7JvMm+xb81NsaJxYrKh8Szb8a0Y8mYyLkuN8SaY2jInWtlxqt0cnXEmSJ2aXNpYsicTGF5xpTIksiUNjMsNjTImcqexpTKocm5xLkxxZ/JoCLJs8m1ybfJuciuyoLJvcm/yr3Ju8uAxaY3MsaHyovKjcqPOjDKkcqTypVjypfGq8SkxJjGscq6y4HKgcaOy4DKvMuZyoN0NznFo8auxaI5MTk0MTEyy4lhyo7EtcqQypIiypTKlsqYxKPElsuVxJrLl8ucyr7Lmsm+y7vLg8m+y6nFtcumy6rFpDI2y6zLrnnLsMuPy7TLk8u3xKbLucm0y5jLvMuey7/Kv8yBxoAxMzUxxbjMnsydxoTMicuLy43Lscuzy5HLtcSUzJB9yKzJgMmjyZBmyb51xIRfaGFixI7GjcSzy7rKgMyVy5vMvcyAdMeNMMydzKPLr8uMy47LssuQy5LEiMqaypzEmsqfyqHKo2XKpcqncsqpxIhbxZEsxZnNnDHKsHbKsmnKtDoiyrYxIsyszao=",
                       "faIcon": "fa fa-bullhorn",
@@ -194,7 +193,7 @@
                 "issues": [
                     {
                       "name": "Westport",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTcxMjIwLjIzNzU5OTMxNsSaecWBxJM1MDI2MMWFxYw3MzY0OTE0xL/EqXjEiMWExZQzOTgyLsWdxaM4M8WOM8WWxanEiMWaMjk2xbUuxaI4xZ3FhzfFp8SBcGF0acSWUmVmZcSExJ3EuMSJIndraWTEiDHFm8acMMSabMaKZXN0V8aYxpo6Mzg1N8SnIl/GiXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGucWoxYLFq8WFxYfFicWLxY3Fj8WRxZPFlSLFl8eBOsW8xZ3FnzLFocWjxaXGh8WAYcWqOsWsNsWuxbDFsjDFtMW2xaHFuceZxbvFm8W+xoDGgsaExYbGh8SLxorGjGzGjsaQxpJjxpTEgMaXxpnGm8adMMafIsahxLDGpMamx7rGqcarxq3GrmZyYW1lSWTGtFswXX3Ik8SaxJhsZWPEsGRCYcSYxKlwSW5kxK7EiDPGrsaJbmXEq8aVyKllTnVtYsaRxIjHvsakxqJPZlBsdWfFgsa0xIplyJjImmVkyLvIvceOIsSMyYhucy9jb21tdW7EjnnGsMahbsmVbmcixJrJi8i+yY3Es8mgyL/Jj8mRyZPJlcS1yZhhyZrFgsmdxpVyb290L0NvyZrImcaLY3XJtMm2ybjImmnJu3Q1MzU2xZA2xZw1xLNvxoljyZbItS43xJpjaMiZa8mFxIh0cnXEmSJ2aXNpYsiYTGF5xpHIjsiQNsWVNjfIlcqfxpHKosm3xLkxLjHJniLJscmzybXJt8iqyoDKgsq9yb/Jusm8Njk3x5PKi8aVyo1hyo/EtcqRypMiypXKl8qZxJTElsSYxq7Ku8m9yr7JucqBybzLgsq/y4R0N8WvMsarODjFpTk0McWIyozKjsqQOsWLy5HLk2PKmMaoxKTLmMSay5rLoMudy4HJvsuhy550y602y63FpcWJxYg2y6/Ljcuxy7PKlMqWy7bLlcu5xKbLu8myy5vLg8yCy73LgMm8MTMwzJ01xaYyxabMoTQ4zIvLjnnLkMyPy5TLuMuXxKbIqMi8yaHJjmbJvHXEhF9oYWLEjsaKxLPLvMyAy77Ln82BzJt0xaTFmsyhzKjMjcqSzKzMkcaoypvKncSayqDKosqkZcqmyqhyyqrEiFvFpCzFms2eMcqwdsqyacq0OiLKtsq4fc2rzas=",
                       "faIcon": "fa fa-anchor",
@@ -202,7 +201,7 @@
                     },
                     {
                       "name": "Fairfield",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTYwxYY1LjUzMjM4xY3FhcSaecWBxJM1MDI5NMWbxYvFmDg5Mzc3NsS/xKl4xIjFhDE1xZkyNy45xYgyNjczxY/Fk8WmxIjFl8W1MDQ2xYs5Nzg1MTgwOcSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxxZjGnDDEmmzGimVzdFfGmMaaOsWPNTfEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xrnFpcWCxajFhcWHxYnFi8WNxY/FkTHFt8eBOsWXxZnFmzTFnTLFn8WhxaPFpWHFpzrFqcWrOcWtxa/FscWzxbU4xbfHmMW5MMW7xb3Fv8aBxoPGhcaHxIHGsMaLxo3Gj8aRxIZjxpTEgMaXxpnGm8adMMafIsahxLDGpMamx7rGqcaCxqzGrWZyYW1lSWTGtFswXX3Ik8aIZWxlY8SwZEJhxJjEqXBJbmTErsSIM8atxrBuZcSrxpXIqWVOdW1ixpHEiMe+xqTGok9mUGx1Z8WCxrTEisiXyJnIm8i7yL3HjCLEjMmGbnMvY29tbXVuxI55xq/GoW7Jk25nIsSayYnIvsmLxLPJnsi/yY3Jj8mRyZPEtcmWYcmYxYLJm8aVcm9vdC9Db8mYyYNpY3XJssm0ybbImsm4ybrFjDU2NTk2xbI1xLNvxrBjyZTItS43xJpjaMiZa2XGqMSkxJjGrXbGkXNpybXEuTEuMcmcIsmvybHJs8m1yKrJvsm5ybvKqcm3yqw2xoDFrcqIxpXKimHKjMS1yo7KkCLKksqUypbEiHRydcSZInZpyp1iyJhMYXnGkciOyJA3xp83MciVyqXJsMqtyb3Gi8qsyqjLmcm/dDc5OMeTNTjFnzHFmjExMsqJyovKjTowyo/KkcqTY8qVypfElsqZxJrKpsuYyqrLmsm6y5zLvMuey6k2y6k5y6oyy6o2y6zKt8uuy7DKu8q9y7TKv8SUy7fEpsu5y5fLv8qvy77JvMyAyqwxM8WIM8aDNMyHNMyhOMyKyrh5yrrLssq+y7bEpX3IqMi8yZ/JjGbJunXEhF9oYWLEjsaKxLPLusyXyqvMmcquzYF0NDnFl8aDzKfMjMuxyrzLs8u1y4DLgsuEy4bLiMuKy4zLjsiPxIhbzYYsxZfNnMuUyprKnMqexJMiyqHKo8yvzac=",
                       "faIcon": "fa fa-balance-scale",
@@ -210,7 +209,7 @@
                     },
                     {
                       "name": "Bridgeport",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTUyMjM5Ljk2ODAxMjfFh8SaecWBxJM1MDM0MsWRLjI2MjUzMzE4OcS/xKl4xIjFhDE0xZkwMi7FpMWOxY3Fj8WoIsWWYcWrOsWZMzfFhTTFszU3NDnFkcWIxJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDHFscaeMMSabMaMZXN0V8aaxpw6MzjGhMSnIl9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGu8WpxYLFrMWFxYfFicWLxbbFkMWSxZTFucWXxIjFvsWcxZ7FoMWixaTFpsW4xYDFu8eExa7FsMWyxbTFp8WOMMW4xbrFvMW+xoDFrsaDxoXGh8WIMsaKxrLGjcaPxpHGk8SGY8aWxIDGmcabxp3GnzDGoSLGo8SwxqbGqMe4xqvGrTd9xq9mcmFtZUlkxrZbMF19yJLGimVsZWPEsGRCYcSYxKlwSW5kxK7EiDPGr8aybmXEq8aXyKhlTnVtYsaTxIjHvMamxqRPZlBsdWfFgsa2xIrIlsiYyJrIusi8x4M6IsSMyYVucy9jb21tdW7EjnnGscajbsmTbmcixJrJici9yYvEs8meyL7JjcmPyZHJk8S1yZZhyZjFgsmbxpdyb290L0NvyZjJgmljdcmyybTJtsiZybjJusWjNTY1xY3FoDXEs2/GsmPJlMi0LjfEmmNoyJhrZcaqxKTEmMavdsaTc2nJtcS5MS4xyZwiya/JscmzybXIqcm+ybnJu8qoybfKqzY5N8eLyojKisqMOjDKjsqQypJjypTGqnRydcSZInZpypxiyJdMYXnGk8iNyI83MyzGhciUyqTJsMqsyb3GjcqryqfLl8m/dDc5ODLGrTjFpzE5NDHFkcq0YcqLxLXKjcqPIsqRypPKlcSjxJbKmMSayqXLlsqpy5jJusuay7rLnMuoNsuox6rFncWgy6rLrHnLrsq6y7LKlsu1xKbLt8uVy73Krsu8ybzLvsqrMTPFkDM1xa7FncWvxa44zIbKtsq4y6/Lscq8y7PElMyNyIbJnci7yZ/JjGbJunXEhF9oYWLEjsaMxLPLuMyRyqrMk8qtzLx0xobFmcybzKHLrcq3yrnLsMq7yr3EiMq/y4HEmsuEy4bLiMuKy4zIjsSIW8aGLMWZzZgxy5PKmnLKnMqeyYfKoMqiyIbNpA==",
                       "faIcon": "fa fa-futbol-o",
@@ -218,7 +217,7 @@
                     },
                     {
                       "name": "Stratford",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTQ5Mjk3LsWGMjQyMzQ4NDXEmnnFgcSTNTAzMjY4OC7FicWIxYU3OTbEv8SpeMSIxYQxxZE4MjEuxZ8wMTnFtTk5xZbFqcSIxZozOTjFiC7FksW2xYo2NjTEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMTDFsDAwxJpsxotlc3RXxpnGmzozODU3xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a8xajFgsWrxYXFh8WJxYvFjcWPxa7FlMW6x4Q6xb3FncWfxaHFuDLFpMWmxahhxao6xazFrsWwxbI4xbTGhMW4xbrHmsW8xZvFv8aBxoPFtTfGhsaIxIHGs8aMxo7GkMaSxIZjxpXEgMaYxprGnMaexp3GoSLGo8SwxqbGqMe7xqvGrcavxrBmcmFtZUlkxrdbMF19yJTGiWVsZWPEsGRCYcSYxKlwSW5kxK7EiDPGsMazbmXEq8aWyKplTnVtYsaSxIjHv8amxqRPZlBsdWfFgsa3xIrImMiayJzIvMi+x48ixIzJh25zL2NvbW11bsSOecayxqNuyZRuZyLEmsmKyL/JjMSzyZ/JgMmOyZDJksmUxLXJl2HJmcWCyZzGlnJvb3QvQ2/JmcmEaWN1ybPJtcm3yJvJucm7NTM1NjXFpsWdNcSzb8azY8mVyLYuN8SaY2jImmtlxqrEpMSYxrB2xpJzacm2xLnFsTHJnSLJsMmyybTJtsiryb/Jusm8yqnJuMqsNsWKMjfKicaWyothyo3EtcqPypEiypPKlcqXxIh0cnXEmSJ2acqeYsiZTGF5xpLIj8iRx60sNzfIlsqlybHKrcm+xozKrMqoy5rKgHTFpcWvxq3Fn8aENDExMsqKyozKjjowypDKksqUY8qWypjElsqaxJrKpsuZyqrLm8m7y53Lusufy6c2y6fFtjLFsMWdy6rKuMusy67KvMq+y7LLgMSUy7XEpsu3y5jLvcqvy7zJvcu+yqzFrcW0yoPFjcWGNcWGOMyHyrl5yrvLsMq/y7TEpX3Iqci9yaDJjWbJu3XEhF9oYWLEjsaLxLPLuMyUyqvMlsquzLx0xYfFmsyfzKLMicuvyr3Lscuzy4HLg8uFy4fLicuLy43Lj8iQxIhbxYcsxZrNljHLlsqccsqeyqA6IsqiIsyqzaM=",
                       "faIcon": "fa fa-tree",
@@ -233,7 +232,7 @@
                 "issues": [
                     {
                       "name": "Milford",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTQzODc5LjY2ODDFhzc4xJp5xYHEkzUwMzcwODMuNDI4NMWcMTjFkyLFgGF4xIjFhDEyOcWjNMWfMDXFhTLFrzTFlMSpxas6xZg0xaDFicWMxaUzMsWjNTXEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMTAyxp0wxJpsxotlc3RXxpnGmzrFiDU3xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a7xL/FlsWsxYXFh8WJxYvFjcWPxZHFp8WVxYLEiMWYxZrFnMWexoDFo8WFxabHgsWqx4TFrsWwxZDFs8W1xa7FuMW6x5nFvcWQxoA3xoLFncaFxbTGiMSBxrLGjMaOxpDGksSGY8aVxIDGmMaaxpzGnsagxqLGpMamxqjHuMarOMatfcavZnJhbWVJZMa2WzBdfciQxollbGVjxLBkQmHEmMSpcEluZMSuxIgzxq/Gsm5lxKvGlsimZU51bWLGksSIxqHEgXTGpE9mUGx1Z8WCxrbEisiUyJbImMi5yLvHjjoixIzJhG5zL2NvbW11bsSOecaxxqNuyZJuZyLEmsmIyLzJisSzyZ3IvcmMyY7JkMmSxLXJlWHJl8WCyZrGlnJvb3QvQ2/Jl8mBaWN1ybHJs8m1yJfJt8m5NTM1NjU5NjLKg8Szb8ayY8mTyLIuN8SaY2jIlmtlxqrEpMSYxq92xpJzacm0xLkxLjHJmyLJrsmwybLJtMinyb3JuMm6yqnJtsqsNjk3Mjc1yonKi8qNOjDKj8qRypNjypXGqnRydcSmxJrKpsqtybzGjMqsyqjLicm+dMWKOMWhxbU4OTHFsDHFrsq3YcqMxLXKjsqQIsqSypTKlsSIy4LLhMSadmnKnWLIlUxhecaSyIvIjcWPLMWFyJLKpcmvy4jKqsuKybnLjMu6y47LmDbLmMuVxbfFrjbLmsucecueyr3LosqXxJbKmcuGy7jLvcqvy7zJu8u+yqwxMzDMmDXFhsafNMycNDjMh8q5yrvLn8uhyr/Lo8SUzI7EpsilyLrJnsmLZsm5dcSEX2hhYsSOxovEs8uHzJLKq8yUyq7MvnQ0OcWYzJzMo8udyrrKvMugyr7LgMuky4PEmSLLqMuqy6zLrsuwyIzEiFvNgyzFmM2bMcu2yptyyp3Kn8mGyqHKo8iEzac=",
                       "faIcon": "fa fa-map",
@@ -241,7 +240,7 @@
                     },
                     {
                       "name": "West Haven",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTI5NzAwLjU5OcWHNjg5OMSaecWBxJM1MDQ2NTjFizfFhzHFoDYwN8S/xKl4xIjFhDExNTIyNS4zM8WJxZw0xYbFlcWoxIjFmTXFtDg0LjkxOTA4xb83NDXEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMTAyxp8wxJpsxo1lc3RXxpvGnTozODU3xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a+xafFgsWqxYXFh8WJxYvFjcWPOcWRxZPFuceGOsWZxZvFncWfxaHFo8Wlxadhxak6xavFrcWvxbHFs8W1NcW3MsW5x5zFuzDFvTfFv8aBxoPGhcaHxonGi8a1xo7GkMaSxpTEhmPGl8SAxprGnMaexqDGosakxqbGqMaqx7/GrcavxrHGsmZyYW1lSWTGuVswXX3IlsaLZWxlY8SwZEJhxJjEqXBJbmTErsSIM8ayxrVuZcSrxpjIrGVOdW1ixpTEiMajxIF0xqZPZlBsdWfFgsa5xIrImsicyJ7Iv8mBx5IixIzJim5zL2NvbW11bsSOeca0xqVuyZduZyLEmsmNyYLJj8SzyaLJg8mRyZPJlcmXxLXJmmHJnMWCyZ/GmHJvb3QvQ2/JnMmHaWN1ybbJuMm6yJ3JvMm+xb01xZzHjjLFnMSzb8a1Y8mYyLguxaYiY2jInGtlxqzEpMSYxrJ2xpRzacm5xLkxLjHJoCLJs8m1ybfJucityoLJvcm/yqvJu8quNsWIMjc1yovKjcqPOsWfxJrKlMqWypjEo8SWypvEmsqoyq/KgcaOyq7KqsuHyoN0N8WTMsavxobGgjnFt8WGyrhhyo7EtcqQypLKvmPKl8asdHJ1xJkidmnKn2LIm0xhecaUyJHIkzgzLMW/yJjKp8m0y4bKrMuIyb7Lisu5y4zFrDbFrMaCxa/FhjbLl8uZecubyr3Klcuey4DElMuCxKbLhMu3y7zKscu7yoDLvcquMTMwzJk1MTTGocaJzJ44zIbKusq8ypPMi8ufy4HEpX3Iq8mAyaPJkGbJvnXEhF9oYWLEjsaNxLPLhcyTyq3MlcqwzL50NDnFvMqlxpjKjMuYzKXKkcyKyr/LoMuiy6TLpsuoy6rLrMuuyJLEiFvNgyzFmc2aMcu1yp1yyp/KoToiyqPKpcyszac=",
                       "faIcon": "fa fa-map-signs",
@@ -249,7 +248,7 @@
                     },
                     {
                       "name": "New Haven",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTI1NDk2LjU2Mjc0xYYxN8SaecWBxJM1MDUxMzM4LjkzxZE4xZ01M8S/xKl4xIjFhDHFrTAyMS4zMMWaMDk3MzHFlcWpxIjFmTU4xYgzLsWGNMW2OTIyxJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDHFr8aeMMSabMaMZXN0V8aaxpw6xZ41N8SnIl9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGu8WoxYLFq8WFxYfFicWLxY3Fj8WRxbDFlCLFlseDOsW+xZzFnsWgxaIxxaQzxabFqGHFqjrFrMWuxbDFssW0xZnFt8W5xbvHnMW9xZrGgDTGgsaExobGiMaKxrLGjcaPxpHGk8SGY8aWxIDGmcabxp3Gn8W0xqLGpMamxqjHvMarxoDGrsavZnJhbWVJZMa2WzBdfciTxoplbGVjxLBkQmHEmMSpcEluZMSuxIgzxq/Gsm5lxKvGl8ipZU51bWLGk8SIxqHEgXTGpE9mUGx1Z8WCxrbEisiXyJnIm8i8yL7HkCLEjMmHbnMvY29tbXVuxI55xrHGo27JlG5nIsSayYrIv8mMxLPJn8mAyY7JkMmSyZTEtcmXYcmZxYLJnMaXcm9vdC9Db8mZyYRpY3XJs8m1ybfImsm5ybvFpsWNNcWKMjY1xLNvxrJjyZXItS7HjWNoyJlrZcaqxKTEmMavdsaTc2nJtsS5xbExyZ0iybDJssm0ybbIqsm/ybrJvMqnybjKqjbFt8WPyojGl8qKYcqMxLXKjsqQypJjypTKlsSWypjEmsqkyqvJvsaNyqrKpsuDyoB0Nzk4MsaAODg5MTnFkcWGyonKi8qNOjDKj8SaypHKk8qVxIh0cnXEmSJ2acqcYsiYTGF5xpPIjsiQODYsODfIlcqjybHLgsqoy4TJu8uGy7rLiMWtNsWty5HGiMWGNsuWyrXLmMuayrnLnsq9xKXGr8uBy73Krcu8yb3LvsqqxZwwxZzFmzTFsDTMmjjMh8q2ecq4y5zKusq8xKPKvsSmyKjIvcmgyY1mybt1xIRfaGFixI7GjMSzzJDMlMySy7nMu8WJx5LMoMyJy5siy53Ku8ufOsuhy6PEmsumy6jLqsusy67Ij8SIW8WJLMWZzZQxy7bKmnLKnMqeOiLKoCJ9zaHNoQ==",
                       "faIcon": "fa fa-safari",
@@ -257,7 +256,7 @@
                     },
                     {
                       "name": "East Haven",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTIwMDU5Ljk3OTEwNMWSMsSaecWBxJM1xZE3MDPFizM1MTM0MjMxOMS/xKl4xIjFhMWQNTU4NC43MTY4NzI5NTbFlcWpxIjFmTXFozQzLsaAxYbFr8WmNcSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIjFkDLFkDDEmmzGjGVzdFfGmsacOjM4NTfEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xrzFqMWCxavFhcWHxYnFi8WNxY/FkcWTxbzHhDrFmTTFm8WdLsWfxaHFo8WlxacixYBhxao6xazFicWvxbHFs8W1xbfFucW7IsWWx53FvsWJxoHGg8aFMsaHxq3Gisazxo3Gj8aRxpPEhmPGlsSAxpnGm8adMMafxYjGosakxqbGqMe/xqvGrcavxrBmcmFtZUlkxrdbMF19yJfGimVsZWPEsGRCYcSYxKlwSW5kxK7EiDPGsMazbmXEq8aXyK1lTnVtYsaTxIjGocSBdMakT2ZQbHVnxYLGt8SKyJvIncifyYDJgsePIsSMyYtucy9jb21tdW7EjnnGssajbsmYbmcixJrJjsmDyZDEs8mjyYTJksmUyZbJmMS1yZthyZ3Fgsmgxpdyb290L0NvyZ3JiGljdcm3ybnJu8ieyb3JvzXFnzbFijYyyojEs2/Gs2PJmci5xbLEmmNoyJ1rZcaqxKTEmMawdsaTc2nJusS5MS4xyaEiybTJtsm4ybrIrsqDyb7KgMqsybzKrzbFjTI3NcqNyo/KkTowypMiypXKl8qZxKPElsqcxJrKqcqwyoLGjcqvyqvLicqEdMWOODLGrTg4xY85NDHFhsq5YcqQxLXKkjfKlMqWY8qYxqp0cnXEmSJ2acqgYsicTGF5xpPIksiUy5UsOciWxrDLh8uMyq3Lism/y7zKssm/y5k2y5nFjzLGn8qLy5vLnXnLn8uhy4HKmsuExKbLhsm1y4jLvcuOzIDKrsyCMzDFocWgxaMxNMyeOMyKyrvKvcugyr/Losuky4PEpX3IrMmByaTJkWbJv3XEhF9oYWLEjsaMxLPLu8qBzJbLi8y+zIF0NMW5xYnKpsaXyo7LnMylyr7LgMujy4I6y6bLqMSay6vLrcuvy7HLs8iTxIhbzYQsxZnNnTHImcuqyp/KocSTIsqkyqbMrc2p",
                       "faIcon": "fa fa-balance-scale",
@@ -265,7 +264,7 @@
                     },
                     {
                       "name": "Branford",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTEwNDEyLjE5Mjk0MDY5MTXEmnnFgcSTNcWIODYzOS43NTE2MsWNNzLEv8SpeMSIxYTFhzMxNzQuNTYxODI0xbI4xZfFq8SIxZs1MsW5MS44NDY1ODDGi8WWxIFwYXRpxJZSZWZlxITEncS4xIkid2tpZMSIxYfFpsaLxJpsxpBlc3RXxp7GoDozODU3xKciX8aPcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a+xarFgsWtxYXFh8WJxYvFjcWPxZHFk8WVxb3HhjrFmzTFncWfxaHFo8WlxafFqSLFgGHFrDrFrjDFsMWyxbTFtsW4xbrHlcW9x5/FvzDGgcaDxoXGh8aJxovHrsSaxIvGkMaSbMaUxpbGmGPGmsSAxp3Gn8ahMMajMMalxqfGqcaryILGrsawxrLGs2ZyYW1lSWTGuVswXX3Imse2ZWxlY8SwZEJhxJjEqXBJbmTErsSIM8azxo9uZcSrxpvIsGVOdW1ixpfEiMiGxIF0xqdPZlBsdWfFgsa5xIrInsigyKLJg8mFx5IixIzJjm5zL2NvbW11bsSOeca1xqZuyZtuZyLEmsmRyYbJk8SzyabJh8mVyZfJmcmbxLXJnmHJoMWCyaPGm3Jvb3QvQ2/JoMmLaWN1ybrJvMm+yKHKgMqCNTPFtTU5xaXGiMSzb8aPY8mcyLzFocSaY2jIoGtlxq3EpMSYxrN2xpdzacm9xLnGhDHJpCLJt8m5ybvJvcixyobKgcqDyq7Jv8qxxZPFqMWiypDKksqUOjDKliLKmMqaypzEo8SWyp/EmsqryrLKhcaRyrHKrcuJyod0NznFuMawODjFlMWQxYYyyrlhypPEtcqVN8qXypljypvGrXRydcSZInZpyqNiyJ9MYXnGl8iVyJfFjiw5M8icyqrJuMuIyq/LisqCy4zLvcuOxYbFtsWNxYrFpjI2y5rLnHnLnsugy4HKncuExKbLhsu7zIDKtMu/yoTMgcqxMTMwzJvFozTFpjTMnzjMisq7yr3Ln8q/y6HLo8uDxKV9yK/JhMmnyZRmyoJ1xIRfaGFixI7GkMSzy4fMlcqwzJfKs82AdDQ5xoDKqMabypHLm8ymyr7LgMuiy4I6y6XLp8Say6rLrMuuy7DLssiWxIhbzYUsxZvNnjHLucqhcsqjyqU6IsqnIsyuzas=",
                       "faIcon": "fa fa-calendar-plus-o",
@@ -280,7 +279,7 @@
                 "issues": [
                     {
                       "name": "Guilford",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MTAwMzc3LjTFjTMyMDY4xJp5xYHEkzUwNMWKODQuNjEyM8WSMDnEv8SpeMSIxYQwODU5MDIuMTjFkDg5MTk0xZTFp8SIxZg1NDk4OC44xa8yODM5NcWTxIFwYXRpxJZSZWZlxITEncS4xIkid2tpZMSIxYYyxYYwxJpsxo5lc3RXxpzGnjozxaw3xKciX8aNcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a8xabFgsWpxYXFh8WJxYvFjTTFj8WRxovFlceEOsWYxZo3xZzFnsWgxaLGhMWlIsWAYcWoOsWqxazFrsWwxbLFtMW2xbjFusedxbwwxb7GgMaCxoQyxobGiMaKxJrEi8aOxpBsxpLGlMaWY8aYxIDGm8adxp/Fr8aixqTGpsaoxqrIgMatxq99xrFmcmFtZUlkxrdbMF19yJfHtGVsZWPEsGRCYcSYxKlwSW5kxK7EiDPGscaNbmXEq8aZyK1lTnVtYsaVxIjGo8SBdMamT2ZQbHVnxYLGt8SKyJvIncifyYDJgseQIsSMyYtucy9jb21tdW7EjnnGs8albsmYbmcixJrJjsmDyZDEs8mjyYTJksmUyZbJmMS1yZthyZ3Fgsmgxplyb290L0NvyZ3JiGljdcm3ybnJu8ieyb3JvzUzNTbFrTYyyonEs2/GjWPJmci5LjfEmmNoyJ1rZcasxKTEmMaxdsaVc2nJusS5McWxyaEiybTJtsm4ybrIrsqDyb7KgMqtybzKsDY5NzI3NcqOypDKkjowypTKlsqYY8qaypzElsqexJrKqsqxyoLGj8qwyqzLi8qEdDfGgMaGxorFtcW3NDHFoMq7YcqRxLXKk8qVIsqXypnKm8SIdHJ1xJkidmnKomLInExhecaVyJLIlMaJLDk2yJnKqcm1y4rKrsuMyb/Ljsu+y5DLmcWfxbfFoMahyozLm8udecufy4HLo8uFxKXGscuJzIHKs8yAyoHMgsqwMTMwzJo1MTTGoTTMnjQ4zIrKvcq/y6DLosuDy6TElMuGxKbIrMmByaTJkWbJv3XEhF9oYWLEjsaOxLPMk8yXzJXLvc2Bxb/FvTHMpsueyr7LgMuhy4LLhMuly6fLqcury63Lr8uxy7PIk8SIW8W/LMWYzZoxy7rKoHLKosqkOiLKps2GyIvNpw==",
                       "faIcon": "fa fa-map",
@@ -288,7 +287,7 @@
                     },
                     {
                       "name": "Madison",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDg2NzgzLjU5NjU3Mjk4OMSaecWBxJM1MDQ3xZ05LsWKxZo1MzTFhsS/xKl4xIjFhDDFkTPFhi4zxaTFpDHFmjLFlsWoxIjFojTFkzQuMDLFuzY5Mjc1xJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDHFv8abMMSabMaJZXN0V8aXxpk6MzjFkMSnIl9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGuMWnxYLFqsWFxYfFicWLxY3Fj8WRxZPFlSLFl8eAOsWaxZzFnsWgM8WixaTFpiLFgGHFqTrFq8Wtxa/FsTTFs8W1xbfHmcW5MDXFuzjFvcW/xoHGg8aFxofGr8aKxozGjsaQxIZjxpPEgMaWxpjGmsacMMaeIsagxLDGo8alx7rGqMaqN33GrGZyYW1lSWTGs1swXX3IlMaHZWxlY8SwZEJhxJjEqXBJbmTErsSIM8asxq9uZcSrxpTIqmVOdW1ixpDEiMe+xqPGoU9mUGx1Z8WCxrPEisiYyJrInMi8yL7HjSLEjMmHbnMvY29tbXVuxI55xq7GoG7JlG5nIsSayYrIv8mMxLPJn8mAyY7JkMmSyZTEtcmXYcmZxYLJnMaUcm9vdC9Db8mZyYRpY3XJs8m1ybfIm8m5ybvFozXFj8WOMsWPxLNvxq9jyZXIti43xJpjaMiaa2XGp8SkxJjGrHbGkHNpybbEuTEuMcmdIsmwybLJtMm2yKvJv8m6ybzKqMm4yqvGgsWRxoXKiMqKyow6MMqOypDKkmPKlMqWxJbKmMSayqXKrMm+xorKq8qny4PKgHQ3xZMyxqrFlDkxOTQxMTLKs2HKi8S1yo3KjyLKkcqTypXEiHRydcSZInZpypxiyJlMYXnGkMiPyJHLkzMsy5M0yJbKpMmxy4LKqcuEybvLhsu6y4jLkzbLk8uPMjLLlDbLlsuYecuayrnLnsq9xKXGrMuBy73Krsu8yb3LvsqrMcWuzJg1MTTMhTTMmzQ4zIjKtcq3y5vLncq7y5/ElMq+xKbIqci9yaDJjWbJu3XEhF9oYWLEjsaJxLPMkcyVzJPLucy+xbvFosqixpTKicuXzKTKuMucyrrKvMugy6LLpMumy6jLqsusy67IkMSIW8W7LMWazZgxy7bKmnLKnMqeOiLKoMqiyIjNpQ==",
                       "faIcon": "fa fa-bullhorn",
@@ -296,7 +295,7 @@
                     },
                     {
                       "name": "Clinton",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MMWFMTk1LjbFhzk3NjkzxJp5xYHEkzUwNDg3MzAuNTIwNTkyNjcxxL/EqXjEiMWEMDY1N8WgLjQxNzk2NsWgNzXFk8WpxIjFlzXFojM0LsWmxaHFhjUzOMSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxMDLGnzDEmmzGjWVzdFfGm8adOsaJxa/EpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xrzFqMWCxavFhcWNxYrFjDDFiMWPxZHFvMeEOsWXxZnFm8WdxZ/FocWjxaXFpyLFgGHFqjrFrMWuxbDFncWzxbXFt8W5xbsixZTHnMW+xaHGgcaDxoXFlzjGiMaKxIHGs8aOxpDGksaUxIZjxpfEgMaaxpzGnsagxqLGpMamxqjGqse/xq3HsTd9xrBmcmFtZUlkxrdbMF19yJfGi2VsZWPEsGRCYcSYxKlwSW5kxK7EiDPGsMazbmXEq8aYyK1lTnVtYsaUxIjGo8SBdMamT2ZQbHVnxYLGt8SKyJvIncifyYDJgsePIsSMyYtucy9jb21tdW7EjnnGssalbsmYbmcixJrJjsmDyZDEs8mjyYTJksmUyZbJmMS1yZthyZ3Fgsmgxphyb290L0NvyZ3JiGljdcm3ybnJu8ieyb3Jv8aINcWuxbbFpDXEs2/Gs2PJmci5xoTEmmNoyJ1rZcasxKTEmMawdsaUc2nJusS5MS4xyaEiybTJtsm4ybrIrsqDyb7KgMqrybzKrsWQxbDFusqMyo7KkDrFnTfKk8qVY8qXypnElsqbxJrKqMqvyoLGjsquyqrLhsqEdMW1ODLHsTg4OcWIxbMxMsq2YcqPxLXKkcq7IsqUypbKmMSjy4HEpsuDybXLhcqsy4fJv8uJy6jLizExNsuuy5MyxqHFpMuYy5p5y5zKvMugxqx0cnXEmSJ2acqfYsicTGF5xpTIksiUy67Ku8uuOMiZyqfLpsuryrHLqsqBy6zKrjHFnMyaNTE0xqE0zJ3Fmcu2yrjKusu6yr7LocSUy6PIi8miyYHJpMmRZsm/dcSEX2hhYsSOxo3Es8uEzJTKrcyWyrDMvnQ0xYnFocqlxpjKjcuZzKXKksueyr3Kv8SIy73Lv8SazILMhMyGzIjMisiTxIhbzYMsxZfNnDHMkcqdcsqfyqE6IsqjyqXIi82p",
                       "faIcon": "fa fa-bell",
@@ -304,7 +303,7 @@
                     },
                     {
                       "name": "Westbrook",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDczMDk2LjU5MTE5NTcxN8SaecWBxJM1MDQ5N8WOLjA4NDM2MDEyNsS/xKl4xIjFhDA1ODYyMS4zMjjFijQyxbbFlsWrxIjFmjU2OcWRLjI3xbo3xY05NMSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxMMWzMDDEmmzGj2VzdFfGncafOjM4xZLEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xr/FqsWCxa3FhcWHxYnFi8WNxY/FkcWTxZUixZfHhzrFmsWcxZ7FtMWhxaPFpcWnxakixYBhxaw6xa7FsMWyxbTFtsW4NsW6xbzHksW+x5XFr8aCxoTGhsaIxorGjMSBxrbGkMaSxpTGlsSGY8aZxIDGnMaexqDGosahxqUixqfEsMaqxqzIgsavxrE3fcazZnJhbWVJZMa6WzBdfcicxo1lbGVjxLBkQmHEmMSpcEluZMSuxIgzxrPGtm5lxKvGmsiyZU51bWLGlsSIyIbGqsaoT2ZQbHVnxYLGusSKyKDIosikyYTJhseUIsSMyY9ucy9jb21tdW7EjnnGtcanbsmcbmcixJrJksmHyZTEs8mnyYjJlsmYyZrJnMS1yZ9hyaHFgsmkxppyb290L0NvyaHJjGljdcm7yb3Jv8ijyoHKgzUzxoHFjcWyNjXEs2/GtmPJnci+LseRY2jIomtlxq7EpMSYxrN2xpZzacm+xLnFtDHJpSLJuMm6ybzJvsizyofKgsqEyq/KgMqyxoI3xobKkMaaypJhypTEtcqWypjKmmPKnMqexJbKoMSayqzKs8qGxpDKssquy4vKiHTFnjjFt8WwxbjFkDTFjzLKkcqTypU6MMqXxJrKmcqbyp3Eo8uGxKbLiMm5y4rKsMuMyoPLjsury5DFjzbHjsWnxbPFqMubyr3Lncufy4HLo8audHJ1xJkidmnKpGLIoUxhecaWyJfImcWnxqXFpzHInsqry6nLrsq1y63KhcuvyrIxxYjMmzUxxbrMn8yeNDjLt8q+ecuAy6HLgsuEy6XEpciQyabJhcmoyZVmyoN1xIRfaGFixI7Gj8Szy4nMlcqxzJfKtM2AdMWcxoDKqcq7y5zKv8uey6Aiy6LLg8ukOsu+zIDEmsyDzIXMh8yJzIvImMSIW8WcLMWazZ7MkcqhyqPKpcSTIsqoIsiQzak=",
                       "faIcon": "fa fa-cubes",
@@ -312,7 +311,7 @@
                     },
                     {
                       "name": "Old Saybrook",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDY1NTk2LjIwNzc5NTI0NcSaecWBxJM1MDQ5MDkzLsWJNjTFjzAyNsS/xKl4xIjFhDA1MTHFjS45xZQ1NjM3xYnFlsWqxIjFmsW2Mjk3Ljc4xbc5MjjFtMSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxxabGnzDEmmzGjWVzdFfGm8adOjM4NTfEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xr3FqcWCxazFhcWHxaLFjMWOxZDFksWUxbvHhTrFmsWcxZ7FoMWixaQ3xabFqCLFgGHFqzrFrcWvxbEwxbPFtcW3xbk5xbvHncW9xa42xoDGgsaExobGiMaKxIHGtMaOxpDGksaUxIZjxpfEgMaaxpzGnsagMMaiIsakxLDGp8apx7/GrMauxrDGsWZyYW1lSWTGuFswXX3ImMaLZWxlY8SwZEJhxJjEqXBJbmTErsSIM8axxrRuZcSrxpjIrmVOdW1ixpTEiMiDxqfGpU9mUGx1Z8WCxrjEisicyJ7IoMmAyYLHkCLEjMmLbnMvY29tbXVuxI55xrPGpG7JmG5nIsSayY7Jg8mQxLPJo8mEyZLJlMmWyZjEtcmbYcmdxYLJoMaYcm9vdC9Db8mdyYhpY3XJt8m5ybvIn8m9yb81M8W2xaLFpzXEs2/GtGPJmci6xoPEmmNoyJ5rZcarxKTEmMaxdsaUc2nJusS5MS4xyaEiybTJtsm4ybrIr8qDyb7KgMqrybzKrjbGgTLFucqMyo7KkDrHozfKk8qVY8qXypnElsqbxJrKqMqvyoLGjsquyqrLh8qEdMWQOMaINTjGiTHFtMWwMsq3YcqPxLXKkcq8IsqUypbKmMSjy4LEpsuEybXLhsqsy4jJv8uKy6jLjMWwNsWwOcWxMsWxNsuYy5p5y5zKvcugxqt0cnXEmSJ2acqfYsidTGF5xpTIk8iVxbEzLMWxNMiayqfLpsuryrHLqsqBy6zKrjEzMMybxa80y7PFlDE0OMu2yrnKu8u6yr/LocSUy6N9yK3JgcmkyZFmyb91xIRfaGFixI7GjcSzy4XMlcqtzJfKsM2AdMWcxb7KpcaYyo3LmcynypLLnsq+y4DEiMu9y7/EmsyCzITMhsyIzIrIlMSIW8WcLMWazZ0xzJLKnXLKn8qhOiLKo8qlzK7Nqg==",
                       "faIcon": "fa fa-cogs",
@@ -327,7 +326,7 @@
                 "issues": [
                     {
                       "name": "Old Lyme",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDU3xYY0LjM2OTg4NDPFjzXEmnnFgcSTNcWGMTMyOcWLNzk1NcWRNjTEv8SpeMSIxYQwNDLFh8WeMTA3NjXFnTAzxZXFqMSIxZk1ODUzMy41xY00xYgyMzHEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIxbEyxbEwxJpsxoxlc3RXxprGnDrFksWHxKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a6xafFgsWqxYXFh8WJxYvFjcWPxZHFk8W5x4I6xbzFm8WdxZ/FocWjxYzFpiLFgGHFqTrFq8Wtxa8uxbHFs8W1OcW3xbnHmcW7xYbFvsaAxoLGhMaGxojGisaxxo3Gj8aRxpPEhmPGlsSAxpnGm8adMMafMMahIsajxLDGpsaox7rGq8W+N33GrmZyYW1lSWTGtVswXX3IlcaKZWxlY8SwZEJhxJjEqXBJbmTErsSIM8auxrFuZcSrxpfIq2VOdW1ixpPEiMe/xqbGpE9mUGx1Z8WCxrXEisiZyJvInci9yL/HjSLEjMmIbnMvY29tbXVuxI55xrDGo27JlW5nIsSayYvJgMmNxLPJoMmByY/JkcmTyZXEtcmYYcmaxYLJncaXcm9vdC9Db8mayYVpY3XJtMm2ybjInMm6ybzFv8aDNTk2MsW0xLNvxrFjyZbIty43xJpjaMiba2XGqsSkxJjGrnbGk3NpybfEuTHHn8meIsmxybPJtcm3yKzKgMm7yb3Kqcm5yqzFjTcyNzXKisqMyo46MMqQypLKlGPKlsqYxJbKmsSayqbKrcm/xo3KrMqoy4bKgXTFoDgyxb7FjzkxOTQxMTLKtmHKjcS1yo/KkSLKk8qVypfEo8uBxKbLg8myy4XKqsuHybzLicupy4vLljbLlsuSMsafyojLmcubecudyrzLocaqdHJ1xJkidmnKnmLImkxhecaTyJDIksuXypHLlzjIl8qly6fLrMqvy6vJvsutyqzFmzDFmzUxxa3MnsydNDjLtsq4yrrLnsugyr7LosSUy6TIicmfyL7JocmOZsm8dcSEX2hhYsSOxozEs8uEzJTKq8yWyq7Mv3Q0xaHFmsyky5zKucq7y5/Kvcq/xIjLvcu/xJrMgsyEzIbMiMyKyJHEiFvNhCzFmc2bMcyRypxyyp7KoDoiyqIxIsiJzak=",
                       "faIcon": "fa fa-flag-checkered",
@@ -335,7 +334,7 @@
                     },
                     {
                       "name": "East Lyme",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDQ3NTU3LjA2OTExOTk2xYjEmnnFgcSTNTA1NDIxNC44NzczN8WeMjTEv8SpeMSIxYQwMzMwODHFocWNOMW3NDgyxZbFq8SIxZo2xZ/FkcWMxZQyxaLFksW7xIFwYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMTDFnjAwxJpsxotlc3RXxpnGmzozOMWKxKciX8aKcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a6xarFgsWtxYXFh8WJxYvFjcWPxZHFk8WVIsWXx4I6xZrFnMWexaDFosWkxaYxxajFqmHFrDrFrsWwxbLFtMWFNsW3OMW5xojFl8ebxb7FjcaBOcaDxabGhjnGiMSLxovGjWzGj8aRxpNjxpXEgMaYxprGnMaexp3GoSLGo8SwxqbGqMe+xqvGrTd9xq9mcmFtZUlkxrVbMF19yJjEmsSYbGVjxLBkQmHEmMSpcEluZMSuxIgzxq/Gim5lxKvGlsiuZU51bWLGksSIyILGpsakT2ZQbHVnxYLGtcSKZcidyJ9lZMmAyYLHjyLEjMmNbnMvY29tbXVuxI55xrHGo27Jmm5nIsSayZDJg8mSxLPJpcmEyZTJlsmYyZrEtcmdYcmfxYLJosaWcm9vdC9Db8mfyJ7GjGN1ybnJu8m9yJ9pyoB0NTM1NjXFkzLKjMSzb8aKY8mbyLouN8SaY2jInmvJisSjxJbEmMavdsaSc2nJvMS5xbQxyaMiybbJuMm6ybzIr8qFyofKr8qEyb/KgcWOxabFiMqRypPKlTowypfKmcqbY8qdxqrEpMqhxJrKrcqCyrDJvsqGyoHKtMqxyrZ0NznFusatxbfFjzk0xZAyyrthypTEtcqWypgiyprKnMqexJTKoMSmy4jJt8uKyrXLjcusy5DLrsWQxoDFkceYxac2y53Ln3nLocuBy6XLhcuoxq/LicuPy4zKs8qDy7DKhzHFscyINcWfx5PMi8W5y7jKvcq/y6LLpMuDy6Z0cnXEmSJ2acqlYsidTGF5xpLIk8iVzIgxLMyIMsiYyK3JgcmmyZNmyoF1xIRfaGFixI7Gi8SzzIHMhcyDy47MvcqyyoE0OceRyqrGlsqSy57MkcuAy6PLgsuExIjMl8yZxJrMnMyezKDMosykyJTEiFvNgyzFms2cMciazJvKpMqmxJMiyqkiyIzNqA==",
                       "faIcon": "fa fa-database",
@@ -343,7 +342,7 @@
                     },
                     {
                       "name": "Waterford",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDM4Mzc1LjA3MTA5NzIyM8SaecWBxJM1MDU0NMWbLjk2OTk0MsWIOMS/xKl4xIjFhDDFlDjFoy7FhTg4NjU3xYnFlsWqxIjFmjYxxb4wLjE1OTg1ODfFmzXEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIxY8yxY8wxJpsxo5lc3RXxpzGnjrFh8W3xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a8xanFgsWsxYXFh8WJxYvFjcWPxZHFk8WVIsWXx4Q6xZrFnMWexYvFocWjxaXFp8WpYcWrOsWtxa/FscWzxbXFt8W5x4/Fu8eSMMW+xoDGgsaExobGiMaKxozGs8aPxpHGk8aVxIZjxpjEgMabxp3Gn8WuxqLGpMamxqjGqse8xq3Ghjd9xrBmcmFtZUlkxrdbMF19yJTGjGVsZWPEsGRCYcSYxKlwSW5kxK7EiDPGsMazbmXEq8aZyKplTnVtYsaVxIjGo8SBdMamT2ZQbHVnxYLGt8SKyJjImsicyL3Iv8eRIsSMyYhucy9jb21tdW7EjnnGssalbsmVbmcixJrJi8mAyY3Es8mgyYHJj8mRyZPJlcS1yZhhyZrFgsmdxplyb290L0NvyZrJhWljdcm0ybbJuMibybrJvDUzNcW2xaEyxbbEs2/Gs2PJlsi2LjfEmmNoyJprZcasxKTEmMawdsaVc2nJt8S5McaCyZ4iybHJs8m1ybfIq8qAybvJvcqpybnKrMWixZLFisqKyozKjjrGgcqRIsqTypXKl8SjxJbKmsSayqbKrcm/xo/KrMqoy4TKgXQ3xoXFpsaHxbAxxaQxMTLKtGHKjcS1yo/Kucq7Y8qWypjKv8Smy4HJssuDyqrLhcm8y4fLpMuJy5LFvsuQy5PGocqIy5XLl3nLmcqSypTLnMq9xJTLn8awy4LLp8qvy6bJvsuoyqwxMzDMgjUxxaXMh8yGNDjLsMq2yrjLtMq8xqx0cnXEmSJ2acqeYsiZTGF5xpXIj8iRzII2LMyCN8iUyKnIvsmhyY5mybx1xIRfaGFixI7GjsSzy7vLv8u9y6PMujQ5x5MxzI3LmMq3ypDMkMu2zJLMlMyWzJjMmsyczJ7MoMiQxIhbzL0sxZrNkzHIlsyXyp3Kn8STIsqizYDIiM2f",
                       "faIcon": "fa fa-globe",
@@ -351,7 +350,7 @@
                     },
                     {
                       "name": "New London",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDMzMjE1LjU3MTY4Nzk4xYrEmnnFgcSTNTA1ODkyMMWMMzHFnjXFnjTEv8SpeMSIxYQwMcWRNMWgMzA5NDU2NDk2xZbFqcSIxZo2NjEyNC43xYk4NDHFkjLEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMTDFiTAwxJpsxo5lc3RXxpzGnjozOMWNxKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a+xajFgsWrxYXFh8WJxYvFjcWPxZHFk8WVIsWXx4Y6xZrFnMWexaA1xaLFpMWmxahhxao6xazFrjfFsC7FssW0xbbFuMW6x5HFvMeUMMW/xoHGg8aFxa7GiMaKxozGtcaPxpHGk8aVxIZjxpjEgMabxp3Gn8ahxqDGpCLGpsSwxqnGq8iBxq7GsDd9xrJmcmFtZUlkxrlbMF19yJvGjGVsZWPEsGRCYcSYxKlwSW5kxK7EiDPGssa1bmXEq8aZyLFlTnVtYsaVxIjIhcapxqdPZlBsdWfFgsa5xIrIn8ihyKPJg8mFx5MixIzJjm5zL2NvbW11bsSOeca0xqZuyZtuZyLEmsmRyYbJk8SzyabJh8mVyZfJmcmbxLXJnmHJoMWCyaPGmXJvb3QvQ2/JoMmLaWN1ybrJvMm+yKLKgMqCx5nFtsWlNjI2NcSzb8a1Y8mcyL3GhMSaY2jIoWtlxq3EpMSYxrJ2xpVzacm9xLkxLjHJpCLJt8m5ybvJvciyyobKgcqDyq/Jv8qyNjnGhTfKj8aZypFhypPEtcqVN8qXypljypvKncSWyp/EmsqsyrPKhcaPyrLKrsuNyod0xZI4MsawOMWdxaPGiMaBypDKksqUOsWgy4IiypjKmsqcxKPLiMSmy4rJuMuMyrDLjsqCy5DLrcuSMcWPy7M5xoHFicqNy53Kvsufy6HLg8uly4fEpcayy4vLsMq1y6/KhMuxyrIxxbLMijUxNMWJxbXMjjjLusq/ecuBy77LhcumOnRydcSZInZpyqNiyKBMYXnGlciWyJjMjjMszI40yJvIsMmEyafJlGbKgnXEhF9oYWLEjsaOxLPMg8yHzIXLrM2DxbjHlcqpyrzLnsuAy6DKlsujy4TLhsSIzJzMnsSazKHMo8ylzKfMqciXxIhbxbgsxZrNnjHIncygyqLKpMSTIsqnyqnIj82q",
                       "faIcon": "fa fa-building-o",
@@ -359,7 +358,7 @@
                     },
                     {
                       "name": "Groton",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDI3MTUzLsWJOTg4MjE0McSaecWBxJM1MDU2NDA3LjbFnDbFkTDFo8S/xKl4xIjFhDAxMjY3xZ84OTc2xZnFtTXFlcWoxIjFtjM2MTEuODU0xYo2OTI5xJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDHFhsaeMMSabMaMZXN0V8aaxpw6M8aCN8SnIl9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGu8WnxYLFqsWFxYfFicWLxY3Fj8WRxZPFuceDOsWZxZvFncWfxaE0xaPGnsWmIsWAYcWpOsWrxa3Fr8WxxbPFtcWlNcW4IsWWx5vFu8Wlxb3Fv8aBxoPGhcaHxonEgcayxo3Gj8aRxpPEhmPGlsSAxpnGm8adxp8wxqEixqPEsMamxqjHvsarxq19xq9mcmFtZUlkxrZbMF19yJfGimVsZWPEsGRCYcSYxKlwSW5kxK7EiDPGr8aybmXEq8aXyK1lTnVtYsaTxIjIgsamxqRPZlBsdWfFgsa2xIrIm8idyJ/Iv8mBx44ixIzJim5zL2NvbW11bsSOecaxxqNuyZduZyLEmsmNyYLJj8SzyaLJg8mRyZPJlcmXxLXJmmHJnMWCyZ/Gl3Jvb3QvQ2/JnMmHaWN1ybbJuMm6yJ7JvMm+xYrFmzU5xaPFtcSzb8ayY8mYyLkuN8SaY2jInWtlxqrEpMSYxq92xpNzacm5xLnGgDHJoCLJs8m1ybfJuciuyoLJvcm/yqrJu8qtxoY3xYc1yovKjcqPOjDKkcqTypVjypfKmcSWypvEmsqnyq7KgcaNyq3KqcuGyoN0N8WOMsaCxY85MTnFk8WtyrZhyo7EtcqQypIiypTKlsqYxKPLgcSmy4PJtMuFyqvLh8m+y4nLp8uLxb/FvsuTxa3FkcWuy5fLmXnLm8q8y5/LgMSlxq/LhMuqyrDLqcqAy6vKrTEzxawzNcWSx4vMhzQ4y7PKuMq6y5zLnsq+y6A6dHJ1xJkidmnKn2LInExhecaTyJLIlMWSNizFkjfIl8isyYDJo8mQZsm+dcSEX2hhYsSOxozEs8u8zIDLvsumzLw0OceQyqTGl8qMy5jMjsq7y53Kvcq/xIjMlcyXxJrMmsyczJ7MoMyiyJPEiFvMvyzFmc2YMciZzJnKnsqgxJMiyqMiyIvNpA==",
                       "faIcon": "fa fa-child",
@@ -367,7 +366,7 @@
                     },
                     {
                       "name": "Stonington",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
+                      "description": "",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MDEzNjUyLjQ2OTc2MTI5xJp5xYHEkzUwNTjFiTMuMDAyMzLFjsWIxL/EqXjEiC03OcWtMTc3LjIwN8WKOcWFNMWVxajEiMWZxYk4NcWxMTkyMjQyxbjEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMcWhxp0wxJpsxotlc3RXxpnGmzozxb83xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a6xafFgsWqxYXFh8WJxYvFjcWPxZHFk8W6x4I6xZnFm8WdxZ/FocWjxaU2xadhxak6xavFrTnFr8WxxbPFtcWTxogixZbHmMW8MMW+xoAuxoLGhMaGx6PGisaMxo7GkMaSxIZjxpXEgMaYxprGnMaexaDGocajxqXGp8e6xqrGrH3GrmZyYW1lSWTGtVswXX3IkcaJZWxlY8SwZEJhxJjEqXBJbmTErsSIM8auxrFuZcSrxpbIp2VOdW1ixpLEiMagxIF0xqNPZlBsdWfFgsa1xIrIlciXyJnIusi8x40ixIzJhW5zL2NvbW11bsSOecawxqJuyZJuZyLEmsmIyL3JisSzyZ3IvsmMyY7JkMmSxLXJlWHJl8WCyZrGlnJvb3QvQ2/Jl8mCaWN1ybHJs8m1yJjJt8m5NTM1xYk5NsWkNcSzb8axY8mTyLMuN8SaY2jIl2tlxqnEpMSYxq52xpJzacm0xLkxx6vJmyLJrsmwybLJtMioyb3JuMm6yqfJtsqqxY43MsW1yojKisqMOjDKjsqQypJjypTKlsSWypjEmsqkyqvJvMaMyqrKpsuDyb50xaw4xofFmzjHnTk0McWSyrNhyovEtcqNyo8iypHKk8qVxKPKvsSmy4DJr8uCyqjLhMm5y4bLpMuIy5LFkcaCxZIyxZI2y5TLlnnLmMq5y5zKvcSlxq7Lgcunyq3Lpsm7y6jKqsWHxYbKgTHGhsyENcyEOMuxyrXKt8uZy5vKu8udOnRydcSZInZpypxiyJZMYXnGksiMyI7MhMWUMcWZyJHIpsi7yZ7Ji2bJuXXEhF9oYWLEjsaLxLPLusu+y7zLo8y4NDnHjzHMisuXyrbKuMuayrrKvMSIzJLMlMSazJfMmcybzJ3Mn8iNxIhbzLssxZnNkzHIk8yWypvKncSTIsqgzL7Ihc2f",
                       "faIcon": "fa fa-birthday-cake",
