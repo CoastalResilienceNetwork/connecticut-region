@@ -5,8 +5,8 @@
       "name": "flood_slr"
     },
     {
-      "repo": "explorer",
-      "name": "habitat_explorer"
+      "repo": "filterSelect",
+      "name": "projectSelector"
     },
     {
       "repo": "explorer",
