@@ -15,6 +15,18 @@
     {
       "repo": "filterSelect",
       "name": "projectSelector"
+          },
+    {
+      "repo": "map-tree",
+      "name": "layer_selector"
+    },
+    {
+      "repo": "map-tree",
+      "name": "community_planning"
+          },
+    {
+      "repo": "map-tree",
+      "name": "future_habitat"
     }
   ]
 }
