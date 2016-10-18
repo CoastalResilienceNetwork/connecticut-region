@@ -8,8 +8,10 @@
             "name": "Connecticut"
         },
         "includeLayers": [
-			"name" : "Marsh Advancement Zones",
-			"includeAllLayers" : true
+			{
+				"name" : "Marsh Advancement Zones",
+				"includeAllLayers" : true
+			}
 		]
 	}
 ]
