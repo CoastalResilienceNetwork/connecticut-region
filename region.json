@@ -41,7 +41,7 @@
     ],
     "pluginOrder": [
     "projectSelector",
-        "layer_selector",
+        "regional-planning",
 		"community_planning",
         "future_habitat",
 		"flood_slr",
