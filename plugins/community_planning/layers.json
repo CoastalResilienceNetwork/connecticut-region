@@ -1,144 +1,134 @@
 [
     {
-        "agsSource": {
+        "displayName": "Connecticut",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Connecticut",
-            "folderTitle": "Connecticut",
-            "folders": [
-                {
-					"name": "",
-                    "services": [
-						{ "name": "Connecticut", "type":"dynamic", "displayName":"Western CT COG", "showLayers": [
-                                {"id":53, "parentLayerId":-1 },
-                                {"id":54, "parentLayerId":53},
-                                {"id":55, "parentLayerId":53 },
-                                {"id":56, "parentLayerId":-1 },
-                                {"id":57, "parentLayerId":56 },
-                                {"id":58, "parentLayerId":56 },
-                                {"id":59, "parentLayerId":-1 },
-                                {"id":60, "parentLayerId":59 },
-                                {"id":61, "parentLayerId":59 },
-                                {"id":62, "parentLayerId":-1 },
-                                {"id":63, "parentLayerId":62 },
-                                {"id":64, "parentLayerId":62 },
-                                {"id":65, "parentLayerId":-1 },
-                                {"id":66, "parentLayerId":65 },
-                                {"id":67, "parentLayerId":65 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Connecticut", "type":"dynamic", "displayName":"Greater Bridgeport Regional Council", "showLayers": [
-                                {"id":69, "parentLayerId":-1 },
-                                {"id":70, "parentLayerId":69 },
-                                {"id":71, "parentLayerId":69 },
-                                {"id":72, "parentLayerId":-1 },
-                                {"id":73, "parentLayerId":72 },
-                                {"id":74, "parentLayerId":72 },
-                                {"id":75, "parentLayerId":-1 },
-                                {"id":76, "parentLayerId":75 },
-                                {"id":77, "parentLayerId":75 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Connecticut", "type":"dynamic", "displayName":"South Central Regional COG", "showLayers": [
-                                {"id":79, "parentLayerId":-1 },
-                                {"id":80, "parentLayerId":79 },
-                                {"id":81, "parentLayerId":79 },
-                                {"id":82, "parentLayerId":-1 },
-                                {"id":83, "parentLayerId":82 },
-                                {"id":84, "parentLayerId":82 },
-                                {"id":85, "parentLayerId":-1 },
-                                {"id":86, "parentLayerId":85 },
-                                {"id":87, "parentLayerId":85 },
-                                {"id":88, "parentLayerId":-1 },
-                                {"id":89, "parentLayerId":88 },
-                                {"id":90, "parentLayerId":88 },
-                                {"id":91, "parentLayerId":-1 },
-                                {"id":92, "parentLayerId":91 },
-                                {"id":93, "parentLayerId":91 },
-                                {"id":94, "parentLayerId":-1 },
-                                {"id":95, "parentLayerId":94 },
-                                {"id":96, "parentLayerId":94 },
-                                {"id":97, "parentLayerId":94 },
-                                {"id":98, "parentLayerId":94 },
-                                {"id":99, "parentLayerId":94 },
-                                {"id":100, "parentLayerId":94 },
-                                {"id":101, "parentLayerId":94 },
-                                {"id":102, "parentLayerId":94 },
-                                {"id":103, "parentLayerId":94 },
-                                {"id":104, "parentLayerId":94 },
-                                {"id":105, "parentLayerId":94 },
-                                {"id":106, "parentLayerId":94 },
-                                {"id":107, "parentLayerId":94 },
-                                {"id":108, "parentLayerId":94 },
-                                {"id":109, "parentLayerId":94 },
-                                {"id":110, "parentLayerId":94 },
-                                {"id":111, "parentLayerId":94 },
-                                {"id":112, "parentLayerId":-1 },
-                                {"id":113, "parentLayerId":112 },
-                                {"id":114, "parentLayerId":112 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Connecticut", "type":"dynamic", "displayName":"River COG", "showLayers": [
-                                {"id":116, "parentLayerId":-1 },
-                                {"id":117, "parentLayerId":116 },
-                                {"id":118, "parentLayerId":116 },
-                                {"id":119, "parentLayerId":-1 },
-                                {"id":120, "parentLayerId":119 },
-                                {"id":121, "parentLayerId":119 },
-                                {"id":122, "parentLayerId":-1 },
-                                {"id":123, "parentLayerId":122 },
-                                {"id":124, "parentLayerId":122 },
-                                {"id":125, "parentLayerId":122 },
-                                {"id":126, "parentLayerId":-1 },
-                                {"id":127, "parentLayerId":126 },
-                                {"id":128, "parentLayerId":126 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Connecticut", "type":"dynamic", "displayName":"Southeastern CT COG", "showLayers": [
-                                {"id":130, "parentLayerId":-1 },
-                                {"id":131, "parentLayerId":130 },
-                                {"id":132, "parentLayerId":130 },
-                                {"id":133, "parentLayerId":130 },
-                                {"id":134, "parentLayerId":130 },
-                                {"id":135, "parentLayerId":-1 },
-                                {"id":136, "parentLayerId":135 },
-                                {"id":137, "parentLayerId":135 },
-                                {"id":138, "parentLayerId":135 },
-                                {"id":139, "parentLayerId":135 },
-                                {"id":140, "parentLayerId":135 },
-                                {"id":141, "parentLayerId":135 },
-                                {"id":142, "parentLayerId":-1 },
-                                {"id":143, "parentLayerId":142 },
-                                {"id":144, "parentLayerId":142 },
-                                {"id":145, "parentLayerId":-1 },
-                                {"id":146, "parentLayerId":145 },
-                                {"id":147, "parentLayerId":145 },
-                                {"id":148, "parentLayerId":-1 },
-                                {"id":149, "parentLayerId":148 },
-                                {"id":150, "parentLayerId":148 }
-							]
-						}	
-					]
-				}
-			]
-        }
+            "name": "Connecticut"
+        },
+        "includeLayers": [
+			{
+				"name" : "Western CT COG",
+				"includeLayers" : [
+					{
+						"name" : "Greenwich",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Stamford",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Darien",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Norwalk",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Westport",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Greater Bridgeport Regional Council",
+				"includeLayers" : [
+					{
+						"name" : "Fairfield",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Bridgeport",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Stratford",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "South Central Regional COG",
+				"includeLayers" : [
+					{
+						"name" : "Milford",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "West Haven",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "New Haven",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "East Haven",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Brandford",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Guilford",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Madison",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "River COG",
+				"includeLayers" : [
+					{
+						"name" : "Clinton",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Westbrook",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Old Saybrook",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Old Lyme",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Southeastern CT COG",
+				"includeLayers" : [
+					{
+						"name" : "East Lyme",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Waterford",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "New London",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Groton",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Stonington",
+						"includeAllLayers" : true
+					}
+				]
+			}
+		]
 	}
 ]
