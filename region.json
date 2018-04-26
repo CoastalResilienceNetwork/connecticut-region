@@ -36,12 +36,13 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-    "projectSelector",
+    	"regional-resilience-projects",
+	"projectSelector",
         "regional-planning",
-		"community_planning",
+	"community_planning",
         "future_habitat",
-		"flood-slr",
-		"risk_explorer",
+	"flood-slr",
+	"risk_explorer",
         "habitat_explorer",
         "measure"
     ],
@@ -62,6 +63,11 @@
             "description": "<p>Coastal Resilience is a decision support tool that provides local, regional, state and national stakeholders a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal and inland hazards. If you need help figuring out how to start, click on the Tour tab in the bottom left of the screen, or visit our <a href= 'http://coastalresilience.org/tools/training/' target='_blank'><b>Training</b></a> page.</p>",
              "plugins": [   
                 {
+                    "title": "<img src='img/regionalResilienceProjects.png' hspace=10>Regional Resilience Projects",
+                    "description": "Compelling description of the Regional Resilience Projects app",
+                    "pluginName": "regional-resilience-projects"
+                },
+		{
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "Identifies potential inundation during coastal storms from wind, storm surge, and future flood risk based on sea-level rise predictions.",
                     "pluginName": "flood-slr"
@@ -71,13 +77,6 @@
                     "description": "Regional and state based data layers to inform resilience planning.",
                     "pluginName": "regional-planning"
                 }   
-            ],
-             "partners": [
-                {
-                    "logoPath": "img/TNCLogoPrimary_RGB.png",
-                    "link": "http://nature.org",
-                    "title": "The Nature Conservancy"
-                }
             ]
       }
 }
