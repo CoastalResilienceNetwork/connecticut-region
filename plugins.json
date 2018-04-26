@@ -5,9 +5,9 @@
       "name": "flood-slr"
     },
     {
-      "repo": "filterSelect",
-      "name": "projectSelector"
-          },
+      "repo": "regional-resilience-projects",
+      "name": "regional-resilience-projects"
+    },
     {
       "repo": "explorer",
       "name": "habitat_explorer"
