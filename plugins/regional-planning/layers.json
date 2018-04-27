@@ -40,65 +40,36 @@
 	},
 	{
         "displayName": "Hurricane Sandy",
-		"server": {
-			"type": "ags",
-			"layerType": "dynamic",
-			"url": "http://services.femadata.com/arcgis/rest/services/2012_Sandy",
-			"name": "2012_Sandy"
-		},
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.femadata.com/arcgis/rest/services/2012_Sandy/"
+        },
         "includeLayers": [
-			{
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "http://services.femadata.com/arcgis/rest/services/2012_Sandy",
-					"name": "SurgeBoundaries_Final_0214"
-				},
-				"name" : "FINAL - High Resolution Storm Surge Extent",
-				"displayName" : "Final FEMA Surge Area - February 2013",
-				"includeAllLayers" : true,
-				"combine" : true
-			},
-			{	
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "http://services.femadata.com/arcgis/rest/services/2012_Sandy",
-					"name": "2012_Sandy"
-				},
-				"name" : "Hurricane Sandy - County Impact Analysis (click county for summary)",
-				"displayName" : "Hurricane Sandy - County Impact Analysis"
-			},
-			{
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "http://gis.wim.usgs.gov/arcgis/rest/services/",
-					"name": "Peak_Locations"
-				},
-				"name" : "Peak stormtide elevations",
-				"displayName" : "Peak Stormtide Elevations"
-			},
-			{
-				"displayName" : "USGS Tide Gauges",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "http://gis.wim.usgs.gov/arcgis/rest/services/",
-					"name": "sandy_nwis_sites"
-				},
-				"name" : "USGS_tide_gages"
-			},
-			{
-				"displayName" : "High Water Marks",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "http://gis.wim.usgs.gov/arcgis/rest/services/",
-					"name": "sandy_storm_surge"
-				},
-				"name" : "USGS_hurricane_sandy_high_water_marks"
-			}
-		]
-	}
+            {
+                "server": {
+                    "name": "SurgeBoundaries_Final_0214"
+                },
+                "name": "FINAL - High Resolution Storm Surge Extent",
+                "displayName": "Final FEMA Surge Area - February 2013",
+                "includeLayers": [
+                        {
+                                "name": "NYC - Final Very High Resolution Surge Area - Field-Verified February 14, 2013 (click on surge for details)",
+                                "displayName": "NYC Surge Area"
+                            },
+                            {
+                                "name": "Final High Resolution Surge Area - Field-Verified February 14, 2013 (click on surge for details)",
+                                "displayName": "Final Surge Area"
+                            }
+                        ]
+                    },
+                    {
+                "server": {
+                    "name": "2012_Sandy"
+                },
+                "name": "Hurricane Sandy - County Impact Analysis (click county for summary)",
+                "displayName": "Hurricane Sandy - County Impact Analysis"
+            }
+        ]
+    }
 ]
