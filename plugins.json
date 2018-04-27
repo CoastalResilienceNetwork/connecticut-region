@@ -10,10 +10,6 @@
     },
     {
       "repo": "explorer",
-      "name": "habitat_explorer"
-    },
-    {
-      "repo": "explorer",
       "name": "risk_explorer"
     },
 	{
