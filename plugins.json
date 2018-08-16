@@ -1,25 +1,17 @@
 {
   "plugins": [
     {
-      "repo": "multiSelect",
-      "name": "flood_slr"
+      "repo": "flood-slr",
+      "name": "flood-slr"
     },
     {
-      "repo": "explorer",
-      "name": "habitat_explorer"
+      "repo": "regional-resilience-projects",
+      "name": "regional-resilience-projects"
     },
-    {
-      "repo": "explorer",
-      "name": "risk_explorer"
-    },
-    {
-      "repo": "filterSelect",
-      "name": "projectSelector"
-          },
-    {
-      "repo": "regional-planning",
-      "name": "regional-planning"
-    },
+	{
+		"repo": "regional-planning",
+		"name": "regional-planning"
+	},
     {
       "repo": "regional-planning",
       "name": "community_planning"
