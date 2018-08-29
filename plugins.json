@@ -19,10 +19,6 @@
     {
       "repo": "regional-planning",
       "name": "community_planning"
-          },
-    {
-      "repo": "regional-planning",
-      "name": "future_habitat"
-    }
+          }
   ]
 }
