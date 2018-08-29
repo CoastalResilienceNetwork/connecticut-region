@@ -9,13 +9,13 @@
       "name": "regional-resilience-projects"
     },
     {
-      "repo": "explorer",
-      "name": "risk_explorer"
+      "repo": "risk-explorer",
+      "name": "risk-explorer"
     },
-	{
-		"repo": "regional-planning",
-		"name": "regional-planning"
-	},
+    {
+		  "repo": "regional-planning",
+		  "name": "regional-planning"
+    },
     {
       "repo": "regional-planning",
       "name": "community_planning"
