@@ -66,11 +66,16 @@
                     "description": "Compelling description of the Regional Resilience Projects app",
                     "pluginName": "regional-resilience-projects"
                 },
-		{
+                {
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "Identifies potential inundation during coastal storms from wind, storm surge, and future flood risk based on sea-level rise predictions.",
                     "pluginName": "flood-slr"
                 },
+                {
+                    "title": "<img src='img/risk_explorer.png' hspace=10>Risk Explorer",
+                    "description": "Shows how the size and distribution of salt marshes and other coastal habitats may change in response to future projected sea level rise scenarios.",
+                    "pluginName": "risk-explorer"
+                }
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
                     "description": "Regional and state based data layers to inform resilience planning.",
