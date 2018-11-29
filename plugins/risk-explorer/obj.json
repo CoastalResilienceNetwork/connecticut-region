@@ -3,5 +3,5 @@
 	"slr": "",
 	"vulArray": ["pop_score","older_scor","pov_score"],
 	"extent": [],
-	"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Connecticut/Risk_Explorer_CT/MapServer"
+	"url": "https://services2.coastalresilience.org/arcgis/rest/services/Connecticut/Risk_Explorer_CT/MapServer"
 }
