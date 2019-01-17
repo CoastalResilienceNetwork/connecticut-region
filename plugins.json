@@ -9,20 +9,20 @@
       "name": "regional-resilience-projects"
     },
     {
-      "repo": "risk-explorer",
-      "name": "risk-explorer"
-    },
-    {
 		  "repo": "regional-planning",
 		  "name": "regional-planning"
     },
     {
       "repo": "regional-planning",
       "name": "community_planning"
-    },
+          },
     {
       "repo": "regional-planning",
       "name": "future_habitat"
+    },
+    {
+      "repo": "risk-explorer",
+      "name": "risk-explorer"
     }
   ]
 }

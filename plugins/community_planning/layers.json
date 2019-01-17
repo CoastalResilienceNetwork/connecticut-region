@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Connecticut",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Connecticut",
             "name": "Connecticut"
         },
         "includeLayers": [
@@ -128,12 +128,7 @@
 						"includeAllLayers" : true
 					}
 				]
-			},
-			{
-				"name" : "Marsh Advancement Zones",
-				"includeAllLayers" : true
 			}
-		
 		]
 	}
 ]
